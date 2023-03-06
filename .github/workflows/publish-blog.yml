@@ -1,35 +1,31 @@
-name: Publish Blog
+name: Deploy to GitHub Pages
 
 on:
-  push: 
-    tags:
-      - v* # 这里表示只有新增tag才会触发自动化脚本执行
+  push:
+    branches:
+      - main
 
 jobs:
-  gh-release:
-    if: github.event_name != 'pull_request'
+  deploy:
+    name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v3
         with:
-          node-version: '16.x'
-      - uses: webfactory/ssh-agent@v0.5.0
+          node-version: 16.x
+          cache: yarn
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+      - name: Build website
+        run: yarn build
+
+      # Popular action to deploy to GitHub Pages:
+      # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          ssh-private-key: ${{ secrets.GH_PAGES_DEPLOY }}
-      - name: Release to GitHub Pages
-        env:
-          USE_SSH: true
-          GIT_USER: git
-          DEPLOYMENT_BRANCH: master
-        run: |
-          git config --global user.email "actions@github.com"
-          git config --global user.name "gh-actions"
-          if [ -e yarn.lock ]; then
-          yarn install --frozen-lockfile
-          elif [ -e package-lock.json ]; then
-          npm ci
-          else
-          npm i
-          fi
-          npm run deploy
+          github_token: ${{ secrets.ACCESS_TOKEN }}
+          # Build output to publish to the `gh-pages` branch:
+          publish_dir: ./build
