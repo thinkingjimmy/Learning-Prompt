@@ -87,4 +87,7 @@ const config = {
     }),
 };
 
-module.exports = config;
+module.exports = {
+  organizationName: 'thinkingjimmy',
+  projectName: 'Learning-prompt.github.io', 
+}
