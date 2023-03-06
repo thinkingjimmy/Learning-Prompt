@@ -16,7 +16,9 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'thinkingjimmy',
-  projectName: 'Learning-prompt.github.io',
+  projectName: 'Learning-prompt',
+  trailingSlash: false,
+  deploymentBranch: 'main',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -87,12 +89,4 @@ const config = {
     }),
 };
 
-module.exports = {
-  title: 'Learning Prompt',
-  url: 'https://learningpromt.wiki', // 你的网站 URL
-  baseUrl: '/',
-  organizationName: 'thinkingjimmy',
-  projectName: 'Learning-prompt.github.io', 
-  trailingSlash: false,
-  deploymentBranch: 'main',
-};
+module.exports = config;
