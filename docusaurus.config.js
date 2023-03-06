@@ -94,4 +94,5 @@ module.exports = {
   organizationName: 'thinkingjimmy',
   projectName: 'Learning-prompt.github.io', 
   trailingSlash: false,
+  deploymentBranch: 'main',
 }
