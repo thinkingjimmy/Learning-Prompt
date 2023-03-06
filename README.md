@@ -47,13 +47,6 @@
 
 另外，我一直认为最好的学习方法，就是实践，所以我建议你使用 ChatGPT 运行一下教程里的案例。这样能够记得更牢靠一些。
 
-你也可以直接在文档里运行案例。但需要注意，本文档使用了 [Dyno](https://trydyno.com/) embed 功能，如果你发现你看不到下面的案例，请检查你的网络，以及允许浏览器运行 JS。如果你能看到下面的案例，可以点击里面的 Generate 按钮。第一次使用会提示各位输入你个人的 ChatGPT API key（不用担心安全，这个 Key 仅会保存在本地），将 key 输入进去就可以运行文档里的案例了。
-
-<div trydyno-embed="" openai-model="text-davinci-003" initial-prompt="What is the capital of China?" initial-response="The capital of China is Beijing. " max-tokens="256" box-rows="3" model-temp="0.7" top-p="1">
-    <noscript>Failed to load Dyno Embed: JavaScript must be enabled</noscript>
-</div>
-
-<br/>
 最后，在读文档的过程中，你会看到以下几个 emoji：
 
 - 🚧 ：标有这个 emoji 代表内容，我还需要进一步去完善补充，但并不影响你的阅读。我会在后续迭代补充。
