@@ -16,6 +16,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'thinkingjimmy',
+
   projectName: 'Learning-Prompt',
 
   // Even if you don't use internalization, you can use this field to set useful
