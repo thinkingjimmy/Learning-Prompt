@@ -66,7 +66,7 @@
 
 在感谢人名单页面里，我会罗列帮助过我的朋友们 😁
 
-最后，你也可以给我买一杯咖啡表示感谢。或者购买我的其他付费内容产品：
+最后，你也可以给我[买一杯咖啡](https://www.buymeacoffee.com/thinkingjimmy)。或者购买我的其他付费内容产品：
 
 - [播客小捕手：](https://xiaobot.net/p/xiaobushous1?refer=599951e8-47eb-4898-aa3b-a7d0a1a06b0f)如果你喜欢播客，不妨看看，未来我会在上面尝试更多 AI 相关的想法。
 - [随意搜寻 | 2023](https://xiaobot.net/p/suiyisouxun2023?refer=599951e8-47eb-4898-aa3b-a7d0a1a06b0f) ：我的付费 newsletter，每周更新。
