@@ -88,6 +88,7 @@ const config = {
 };
 
 module.exports = {
+  title: 'Learning Prompt',
   url: 'https://learningpromt.wiki', // 你的网站 URL
   baseUrl: '/',
   organizationName: 'thinkingjimmy',
