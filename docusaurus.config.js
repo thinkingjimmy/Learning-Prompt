@@ -95,4 +95,4 @@ module.exports = {
   projectName: 'Learning-prompt.github.io', 
   trailingSlash: false,
   deploymentBranch: 'main',
-}
+};
