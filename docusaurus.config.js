@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const tailwindPlugin = require('./plugins/tailwind-plugin.cjs');
 
 /** @type {import('@docusaurus/types').Config} */
-module.exports = {
+const config = {
   title: 'Learning Prompt',
   tagline: '免费的 Prompt Engineering 教程',
   url: 'https://learningpromt.wiki',
@@ -18,7 +18,7 @@ module.exports = {
   organizationName: 'thinkingjimmy',
   projectName: 'Learning-prompt',
   trailingSlash: false,
-  deploymentBranch: 'main',
+  //deploymentBranch: 'main',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -89,4 +89,4 @@ module.exports = {
     }),
 };
 
-//module.exports = config;
+module.exports = config;
