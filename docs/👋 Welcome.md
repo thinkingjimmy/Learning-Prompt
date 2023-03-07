@@ -69,7 +69,7 @@ sidebar_position: 1
 
 ## 如何贡献一份你的力量？
 
-如果可以的话，不妨在 Github Page 上给我点赞，或者将本教程分享给其他人。感谢~
+如果可以的话，不妨在 [Github Page](https://github.com/thinkingjimmy/Learning-Prompt) 上给我点赞，或者将本教程分享给其他人。感谢~
 
 在阅读这个文档的时候：
 
