@@ -16,7 +16,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'thinkingjimmy',
-  projectName: 'Learning-prompt',
+  projectName: 'Learning-prompt.github.io',
   trailingSlash: false,
   deploymentBranch: 'gh-pages',
 
