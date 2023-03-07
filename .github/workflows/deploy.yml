@@ -39,4 +39,4 @@ jobs:
           git config --global user.email "thinkingjimmy@outlook.com"
           git config --global user.name "thinkingjimmy"
           npm ci
-          yarn deploy
+          npm run deploy
