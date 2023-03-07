@@ -1,5 +1,17 @@
-# 👋 Welcome
-## 关于本教程
+<div align="center">
+<img src="static/img/logo.svg" width="180px" />
+<h1>👋 Welcome to Learning Prompt</h1>
+<p>
+   <strong>免费 Prompt Engineering 教程</strong>
+</p>
+<h4>
+    <a href="https://learningpromt.wiki/">阅读教程</a>
+    <span> | </span>
+    <a href="https://mcousdyt7h.feishu.cn/share/base/form/shrcn8p8MEmbkTiCDyVVPmdUoSg">填写反馈表单</a>
+</h4>
+</div>
+
+## 😎 关于本教程
 
 如果你不知道能拿 ChatGPT 或者其他 AI 产品来干什么；
 
@@ -14,7 +26,7 @@
 - 本教程不是 prompt 大全，如果你预期是找到能直接用的 prompt，建议你谷歌找一找。本教程更多地是教你方法，以及解释这些方法为何有效。
 - 本教程不是权威指南，在这个领域我也只是学生。
 
-## 为什么会有这个教程？
+## 🤔 为什么会有这个教程？
 
 我最近一直在研究 Prompt Engineering 相关的知识，然后发现大多数教程都是英文的，有些教程作者甚至是 NLP 或者 ML 的专家，内容都非常好，但对我这种初学者来说，阅读起来还是有点吃力。
 
@@ -30,7 +42,7 @@
 
 所以就有了这份教程。
 
-## 如何阅读？
+## 📖 如何阅读？
 
 很感谢你打开这份教程，但我建议你在阅读这份教程的时候：
 
@@ -52,17 +64,16 @@
 - 🚧 ：标有这个 emoji 代表内容，我还需要进一步去完善补充，但并不影响你的阅读。我会在后续迭代补充。
 - 🆘 ：这个代表我需要各位的帮助，比如有可能是希望大家给我一些某场景的 prompt 案例等。如果你有想法，不妨通过 Issue 或表单的方式，向我反馈。
 - 🔴：为了让大家能更平滑地学习高级篇的内容，我会在基础篇提一些高级篇的概念，当你看到这个红色圆时，就表示这是高级内容，你可以不深究，先了解即可。
-- {text}：在后续的教程中，我会写很多案例，部分案例文字会比较长，为了提高阅读体验，我会用 {text} 标明这里省略了一段示例文字。
 
-## 如何贡献一份你的力量？
+## 🤝 如何贡献一份你的力量？
 
 如果可以的话，不妨在 Github Page 上给我点赞，或者将本教程分享给其他人。感谢~
 
 在阅读这个文档的时候：
 
-1. 遇到错别字、句子不通顺，亦或者读不懂的地方，欢迎通过 Issue 或表单的方式，反馈给我，我会对其进行修改。一经采纳会将你的名字罗列在感谢人名单内。
-2. AI 的发展非常快，今天写的教程，很有可能明天就过期了。如果你在文档里看到有什么落后的内容，比如某些指令已经不需要了，或指令不生效了，也欢迎通过 Issue 或表单的方式，向我反馈。
-3. 看到标有 🆘 的内容，然后你又有不错的想法，不妨通过 Issue 或表单的方式，向我反馈你的想法。
+1. 遇到错别字、句子不通顺，亦或者读不懂的地方，欢迎通过 Issue 或[表单](https://mcousdyt7h.feishu.cn/share/base/form/shrcn8p8MEmbkTiCDyVVPmdUoSg)的方式，反馈给我，我会对其进行修改。一经采纳会将你的名字罗列在感谢人名单内。
+2. AI 的发展非常快，今天写的教程，很有可能明天就过期了。如果你在文档里看到有什么落后的内容，比如某些指令已经不需要了，或指令不生效了，也欢迎通过 Issue 或[表单](https://mcousdyt7h.feishu.cn/share/base/form/shrcn8p8MEmbkTiCDyVVPmdUoSg)的方式，向我反馈。
+3. 看到标有 🆘 的内容，然后你又有不错的想法，不妨通过 Issue 或[表单](https://mcousdyt7h.feishu.cn/share/base/form/shrcn8p8MEmbkTiCDyVVPmdUoSg)的方式，向我反馈你的想法。
 
 在感谢人名单页面里，我会罗列帮助过我的朋友们 😁
 
@@ -71,7 +82,7 @@
 - [播客小捕手：](https://xiaobot.net/p/xiaobushous1?refer=599951e8-47eb-4898-aa3b-a7d0a1a06b0f)如果你喜欢播客，不妨看看，未来我会在上面尝试更多 AI 相关的想法。
 - [随意搜寻 | 2023](https://xiaobot.net/p/suiyisouxun2023?refer=599951e8-47eb-4898-aa3b-a7d0a1a06b0f) ：我的付费 newsletter，每周更新。
 
-## 感谢
+## ❤️ 感谢
 
 本教程制作过程中，内容和案例参考了以下教程或文档：
 
