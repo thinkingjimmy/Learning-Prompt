@@ -16,7 +16,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'thinkingjimmy',
-  projectName: 'Learning-prompt.github.io',
+  projectName: 'Learning-prompt',
   trailingSlash: false,
   deploymentBranch: 'main',
 
