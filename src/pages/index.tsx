@@ -4,7 +4,7 @@ import Layout from '@theme/Layout';
 
 import HeroSection from '../components/homepage/HeroSection';
 import HomeFooter from '../components/homepage/HomeFooter';
-import PrincipleSection from '../components/Homepage/Principlesection';
+import PrincipleSection from '../components/homepage/PrincipleSection';
 
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
