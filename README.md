@@ -5,7 +5,7 @@
    <strong>免费 Prompt Engineering 教程</strong>
 </p>
 <h4>
-    <a href="https://learningpromt.wiki/">阅读教程</a>
+    <a href="https://learningprompt.wiki/">阅读教程</a>
     <span> | </span>
     <a href="https://mcousdyt7h.feishu.cn/share/base/form/shrcn8p8MEmbkTiCDyVVPmdUoSg">填写反馈表单</a>
 </h4>
