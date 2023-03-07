@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const tailwindPlugin = require('./plugins/tailwind-plugin.cjs');
 
 /** @type {import('@docusaurus/types').Config} */
-const config = {
+module.exports = {
   title: 'Learning Prompt',
   tagline: '免费的 Prompt Engineering 教程',
   url: 'https://learningpromt.wiki',
@@ -89,4 +89,4 @@ const config = {
     }),
 };
 
-module.exports = config;
+//module.exports = config;
