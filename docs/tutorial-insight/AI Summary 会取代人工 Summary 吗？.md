@@ -1,6 +1,5 @@
 ---
-title: AI Summary 会取代人工 Summary 吗?
-tags: [AI Summary, 预测]
+sidebar_position: 1
 ---
 
 :::info 
