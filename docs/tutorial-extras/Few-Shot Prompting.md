@@ -101,7 +101,7 @@ A:
 1. "the label space and the distribution of the input text specified by the demonstrations are both key (regardless of whether the labels are correct for individual inputs)" 标签空间和输入文本的分布都是关键因素（无论这些标签是否正确）。
 2. the format you use also plays a key role in performance, even if you just use random labels, this is much better than no labels at all. 即使只是使用随机标签，使用适当的格式也能提高性能。
 
-理解起来有点难，我用一个 prompt 案例给大家解释（🆘 如果你有更好的解释，不妨反馈给我）。我给 ChatGPT 一些不一定准确的例子：
+理解起来有点难，我找一个 prompt 案例给大家解释（🆘 如果你有更好的解释，不妨反馈给我）。我给 ChatGPT 一些不一定准确的例子：
 
 ```other
 I loved the new Batman movie!  // Negative

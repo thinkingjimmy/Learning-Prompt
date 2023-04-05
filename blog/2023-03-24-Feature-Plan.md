@@ -25,7 +25,7 @@ tags: [feature, release]
 
 **Q3：会分享一些 prompt 模板吗？**
 
-prompt 相关的技巧，暂时不会在这里发，会在我的[小红书账号](https://www.xiaohongshu.com/user/profile/6073d38d00000000010068a6?xhsshare=CopyLink&appuid=6073d38d00000000010068a6&apptime=1679646639)上更新。感兴趣的朋友可以去关注下。
+ 
 
 **Q4：如何注册 ChatGPT？**
 
