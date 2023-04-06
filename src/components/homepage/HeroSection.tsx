@@ -18,11 +18,11 @@ export default function HeroSection() {
             Learning Prompt
           </h1>
           <p className="text-sm text-text-400 lg:max-w-lg lg:text-base">
-            免费的 Prompt Engineering 教程
+            免费的 Prompt Engineering 教程<br/> 现已包含 ChatGPT 和 Midjourney 教程
           </p>
           <div className="mt-8 flex flex-col gap-4 lg:flex-row">
             <Link
-              href="/docs/👋 Welcome"
+              href="/docs"
               className="rounded-sm bg-primary px-12 py-2.5 text-center font-semibold text-white hover:text-white"
             >
               Start Learning

@@ -39,6 +39,7 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          postsPerPage: 6,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -54,6 +55,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
+      },
       navbar: {
         title:'Learning Prompt',
         logo: {
@@ -67,13 +73,26 @@ const config = {
           //   position: 'left',
           //   dropdownActiveClassDisabled: true,
           // },
+
           {
             type: 'doc',
             docId: '👋 Welcome',
             position: 'left',
-            label: 'Tutorial',
+            label: '👋 欢迎',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            type: 'doc',
+            docId: 'chatgpt-learning-path',
+            position: 'left',
+            label: '💬 ChatGPT 教程',
+          },
+          {
+            type: 'doc',
+            position: 'left',
+            docId: 'midjourney-learning-path',
+            label: '🖼️ Midjourney 教程',
+          },
+          {to: '/blog', label: '📰 博客', position: 'left'},
           {
             href: 'https://github.com/thinkingjimmy/Learning-Prompt',
             label: 'GitHub',

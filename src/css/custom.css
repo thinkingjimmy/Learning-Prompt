@@ -646,22 +646,18 @@ ul.emoji-list span {
 
 table {
   border-collapse: collapse;
-  border: none;
-  background-color: transparent;
-
   text-align: left;
-  font-size: 90%;
+  font-size: 95%;
 }
 
 table :is(tr, td, th, thead) {
   --ifm-table-stripe-background: transparent;
   --table-cell-color: transparent;
-  border: none;
-  background-color: transparent;
   border-bottom: 1px solid var(--docs-color-border);
 }
 
 table thead tr {
+  background-color: var(--docs-color-background-200);
   border-bottom: 1px solid var(--docs-color-border);
 }
 

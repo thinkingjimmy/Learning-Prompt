@@ -2,7 +2,7 @@ const PRINCIPLES = [
   {
     title: '关于本教程',
     description:
-      "如果你不知道能拿 ChatGPT 或者其他 AI 产品来干什么。如果你不知道如何更好地使用 OpenAI 提供的 API。那本教程应该能帮到你。这是一份教你如何更好使好地使用 ChatGPT 和其他 AI 产品的免费教程。",
+      "如果你不知道如何使用 ChatGPT 或者 Midjourney。那本教程应该能帮到你。这是一份教你如何更好使好地使用 ChatGPT 和 Midjourney 的免费教程。",
   },
   {
     title: '它不是什么？',
