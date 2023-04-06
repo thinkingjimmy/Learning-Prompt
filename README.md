@@ -76,10 +76,8 @@
 
 或者你也可以给我买一杯咖啡：
 
-<img 
-    src={require("./assets/img/donate-code.jpeg").default} 
-    style={{width: 300}} 
-/>
+<img width="400" src="https://user-images.githubusercontent.com/37492595/230420601-bcb6e1bc-67eb-47ba-afe3-0e637d8af312.png" />
+
 
 ## 感谢
 
