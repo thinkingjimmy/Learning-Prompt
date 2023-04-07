@@ -110,7 +110,7 @@ sidebar_position: 5
 
 |        | **Prompt**                                       | **解释**     |
 | ------ | ------------------------------------------------ | ---------- |
-| 主体是什么？ | a lady drinking coffee at the computer in a cafe | 一个在海边跑步的男人 |
+| 主体是什么？ | a lady drinking coffee at the computer in a cafe | 一位在咖啡店坐在电脑前喝咖啡的女士 |
 
 最后的结果：
 
