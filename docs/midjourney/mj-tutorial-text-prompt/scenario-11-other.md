@@ -95,7 +95,7 @@ voilà~ 加上后效果好很多（右边 4 张），太漂亮了，希望某宝
 
 最简单的方法，当然就是直接问。
 
-如果问不到，倒是可以借助一些工具，Midjourney 支持图片转 prompt 功能。方法很简单。第一步在输入框输入 /desctrible：
+如果问不到，倒是可以借助一些工具，Midjourney 支持图片转 prompt 功能。方法很简单。第一步在输入框输入 /describe：
 
 ![MJ092.png](https://res.craft.do/user/full/d845172f-becd-4255-bf79-d722098b2d83/doc/15EA26B6-9B49-4076-B8D8-DFE53ABD52C8/1F561044-20D9-4FEB-BC08-B59BBFB872E1_2/Pu4U2CcTsM6jbPy40CPQxi6Cqm92cP9yvPqUDgJYtY4z/MJ092.png)
 
