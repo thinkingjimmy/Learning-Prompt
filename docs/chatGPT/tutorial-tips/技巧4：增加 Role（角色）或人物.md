@@ -6,7 +6,7 @@ sidebar_position: 4
   <link href="https://embed.trydyno.com/embedder.css" rel="stylesheet" />
 </head>
 
-前面提到的改写例子，我在 prompt 里加了让其更易于阅读，这个优化方法是 OK 的。也很常用，比如你想将你写的 Email 改得更商务，则只需要加 business 相关的词即可。
+前面提到的改写例子，我在 prompt 里加了 Role 让其更易于阅读，这个优化方法是 OK 的。也很常用，比如你想将你写的 Email 改得更商务，则只需要加 business 相关的词即可。
 
 我再介绍一个更有效的技巧，就是在 prompt 里增加一些 role（角色）相关的内容，让 AI 生成的内容更符合你的需求。
 
