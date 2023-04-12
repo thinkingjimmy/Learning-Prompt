@@ -32,3 +32,11 @@ sidebar_position: 7
 
 另外，根据 Wei 等人在 [2022 年的论文](https://arxiv.org/pdf/2201.11903.pdf)表明，还有它仅在大于等于 100B 参数的模型中使用才会有效。如果你使用的是小样本模型，这个方法不会生效。
 
+---
+
+2023-04-12 更新（感谢[qq-740943515](https://github.com/qq-740943515)分享）：
+根据 Yongchao Zhou 等人的[最新论文](https://sites.google.com/view/automatic-prompt-engineer)，更好的 prompt 是:
+```
+Let's work this out in a step by step way to be sure we have the right answer.
+```
+
