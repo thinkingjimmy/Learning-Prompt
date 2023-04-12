@@ -17,7 +17,7 @@ sidebar_position: 3
 
 > Rendering words do ***something*** to your image. They may also be what's ***breaking*** your prompt. So, as part of troubleshooting, we recommend removing them. Removing them often fixes issues with blurring, focus, clarity, and coherence.
 
-意思就是会影响，有一定作用，但利大于弊。加入这些词，反而会破坏你的 prompt，特别是一些摄影场景，比如你需要用到诸如背景虚化等效果，再加上 4K 可能就会破坏背景虚化。
+意思就是会影响，有一定作用，但弊大于利。加入这些词，反而会破坏你的 prompt，特别是一些摄影场景，比如你需要用到诸如背景虚化等效果，再加上 4K 可能就会破坏背景虚化。
 
 所以官方建议去掉这些词。
 
