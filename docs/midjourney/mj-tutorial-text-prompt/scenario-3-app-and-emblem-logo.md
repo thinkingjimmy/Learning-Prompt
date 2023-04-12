@@ -20,7 +20,7 @@ Logo 篇比较长，所以拆成两章介绍。
    1. iOS 的都是圆角矩形：squared with round edges
    2. Logo 图形描述，比如 an icon for a Instant Noodles company
 3. 风格：
-   1. 延续使用上一章提到的方法即可，我这加了个 prp art
+   1. 延续使用上一章提到的方法即可，我这加了个 pop art
 
 ```other
 squared with round edges mobile app logo, an icon for a Instant Noodles company, pop art
