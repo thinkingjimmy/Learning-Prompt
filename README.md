@@ -78,6 +78,13 @@
 
 <img width="400" src="https://user-images.githubusercontent.com/37492595/230420601-bcb6e1bc-67eb-47ba-afe3-0e637d8af312.png" />
 
+## Licenses
+
+本教程采用「保持署名—非商用」创意共享 4.0 许可证。
+
+只要保持原作者署名和非商用，您可以自由地阅读、分享、修改本书。
+
+详细的法律条文请参见[此网站](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ## 感谢
 
