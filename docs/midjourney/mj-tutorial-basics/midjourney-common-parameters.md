@@ -16,7 +16,7 @@ sidebar_position: 3
 
 ## Version
 
-目前 Midjourney 支持多个版本，最新的版本是 V5 ，跟 ChatGPT 稍微有点不一样，Midjourney 给我的感觉，并不是版本越大，约厉害，而是擅长的东西不太一样。相关区别请查阅 Midjourney 各版本差异。
+目前 Midjourney 支持多个版本，最新的版本是 V5 ，跟 ChatGPT 稍微有点不一样，Midjourney 给我的感觉，并不是版本越大，越厉害，而是擅长的东西不太一样。相关区别请查阅 Midjourney 各版本差异。
 
 Version 参数使用方式见下表。你也可以在设置里，调整默认的版本，相关教程请查阅 Midjourney 基础设置。
 
