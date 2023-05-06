@@ -1,0 +1,8 @@
+{
+  "label": "📃 每日论文分享",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "每天看 30 分钟论文。"
+  }
+}
