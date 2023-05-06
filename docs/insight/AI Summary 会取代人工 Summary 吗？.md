@@ -19,18 +19,18 @@ sidebar_position: 1
 
 聊对比前，我想先科普一些 ChatGPT 相关的知识，各位了解这些知识后，才能更好地对比 AI Summary 和人工 Summary。
 
-* Token：这个指的是 OpenAI 处理文本的基本单位，可以是单词或者字符的片段。例如，“hamburger” 被分成 “ham”、“bur” 和 “ger” 三个 Token，而 “pear” 是一个 Token。1个 Token 大约相当于 4 个字符或者 0.75 个英文单词。
+* Token：这个指的是 OpenAI 处理文本的基本单位，可以是单词或者字符的片段。例如，“hamburger”被分成“ham”、“bur”和“ger”三个 Token，而“pear”是一个 Token。1 个 Token 大约相当于 4 个字符或者 0.75 个英文单词。
 
 * 一些限制：
-  * OpenAI 的模型有一个固定的 Token 限制，例如 GPT-3 的 Davinci 模型最多可以处理2049 个 Token，大约 1500 个英文单词。最新 Turbo 模型大约是 4,096 个 Token，大约是 3000 个英文单词。
-  * 另外这个限制还有一个细节，Token 限制的计数包含输入和输出的文本。换句话说，不是说我输入 3000 个英文单词，然后 OpenAI 能返回 3000 个英文单词的结果，而是输入+输出总共不能超过 3000 个英文单词。
+  * OpenAI 的模型有一个固定的 Token 限制，例如 GPT-3 的 Davinci 模型最多可以处理 2049 个 Token，大约 1500 个英文单词。最新 Turbo 模型大约是 4,096 个 Token，大约是 3000 个英文单词。
+  * 另外这个限制还有一个细节，Token 限制的计数包含输入和输出的文本。换句话说，不是说我输入 3000 个英文单词，然后 OpenAI 能返回 3000 个英文单词的结果，而是输入 + 输出总共不能超过 3000 个英文单词。
   * 文字限制。目前 OpenAI 的 GPT-3 模型只能处理文字。
 
 懂了这几个限制后，我再讲解下，市面上的视频/Podcast Summary 是怎么做的。实际上你能直接用 ChatGPT 模拟这些插件。
 
-首先，因为限制 #3 ，需要将视频/Podcast 的音频转为文字。这一步因为 Youtube 有 Transcript，所以很多产品会直接拿 Transcript 来用。
+首先，因为限制 #3，需要将视频/Podcast 的音频转为文字。这一步因为 Youtube 有 Transcript，所以很多产品会直接拿 Transcript 来用。
 
-第二步将 Transcript 和 Prompt（一般是「请总结以下内容」）一起传给 OpenAI 。传给 Open AI 的东西类似这样，你也可以在 ChatGPT 上试试，只需要将下方 Transcript 的内容替换成 Youtube 上的真实 Transcript 即可：
+第二步将 Transcript 和 Prompt（一般是「请总结以下内容」）一起传给 OpenAI。传给 Open AI 的东西类似这样，你也可以在 ChatGPT 上试试，只需要将下方 Transcript 的内容替换成 Youtube 上的真实 Transcript 即可：
 
 ```
 Please summarize the following sentences.
@@ -41,7 +41,7 @@ Transcript
 
 最后 OpenAI 就会返回 Summary 结果。
 
-但某些视频和 Podcast 会非常长，一集可能有几万字，因为 #2 的限制，根本没法将一集完整的 Transcript 都传给 OpenAI，所以不同的产品，会有不同的处理方式。目前常见的处理方式是「裁切总结」，将 Transcript 切成多个时长为 5 分钟的 Transcript ，再传给 OpenAI ，让 OpenAI 先总结一遍，然后再将这些段落总结，传给 OpenAI ，再让它总结一遍，生成最终的总结内容。
+但某些视频和 Podcast 会非常长，一集可能有几万字，因为 #2 的限制，根本没法将一集完整的 Transcript 都传给 OpenAI，所以不同的产品，会有不同的处理方式。目前常见的处理方式是「裁切总结」，将 Transcript 切成多个时长为 5 分钟的 Transcript，再传给 OpenAI，让 OpenAI 先总结一遍，然后再将这些段落总结，传给 OpenAI，再让它总结一遍，生成最终的总结内容。
 
 ## 目前 AI Summary 的缺点
 
@@ -65,9 +65,9 @@ Transcript
 
 比如 [Glarity](https://glarity.app/) 这个插件，给 Knowledge Project 141 的总结是这样的：
 
-> 这段视频中，Kunal Shah谈到了他从家族企业中学到的几个成功做生意的要素。他们中的大多数人来自于商人的社群，这种社群的人更愿意承担风险、具有更低的羞耻感、更能理解事物的价值、更能发现新的趋势、并且愿意帮助自己的社群成功。这些特点让这些人更有可能在商业上获得成功。
+> 这段视频中，Kunal Shah 谈到了他从家族企业中学到的几个成功做生意的要素。他们中的大多数人来自于商人的社群，这种社群的人更愿意承担风险、具有更低的羞耻感、更能理解事物的价值、更能发现新的趋势、并且愿意帮助自己的社群成功。这些特点让这些人更有可能在商业上获得成功。
 
-对比看看[我的总结](https://xiaobot.net/post/1cef6b4e-da54-4a56-a517-8b2e86fabc4c)，这段总结应该只输入了前15分钟的内容。（BTW，我这里并不是说这样设计不行，因为 Glarity 支持自定义 prompt，它是我目前常用的 AI 插件之一，只是觉得它能更好 😁 ）
+对比看看[我的总结](https://xiaobot.net/post/1cef6b4e-da54-4a56-a517-8b2e86fabc4c)，这段总结应该只输入了前 15 分钟的内容。（BTW，我这里并不是说这样设计不行，因为 Glarity 支持自定义 prompt，它是我目前常用的 AI 插件之一，只是觉得它能更好 😁 ）
 
 * **缺点四：层层总结导致内容缺失。**
 
@@ -83,7 +83,7 @@ Transcript
 
 > 00:15:00 The author discusses how he has learned that many concepts in western society are not applicable to Asian societies, such as the value of time. He also discusses how Hinduism is not as scalable as other religions because it is not standardized.
 
-里面提到一个 “such as the value of time”，我在听这一段的时候，我认为这段内容很精彩。因为这段 Kunal 聊的是「为何很多工具产品在亚洲赚不到钱」，他解释原因是对于许多亚洲国家来说都是如此，时间作为一个价值概念从未被教导过。
+里面提到一个“such as the value of time”，我在听这一段的时候，我认为这段内容很精彩。因为这段 Kunal 聊的是「为何很多工具产品在亚洲赚不到钱」，他解释原因是对于许多亚洲国家来说都是如此，时间作为一个价值概念从未被教导过。
 
 但如果你看上面的 AI 总结，其实省略了很多内容，并且吸引力不够，如果我读得快一点，很可能就会忽略它。再看看另一个例子：
 

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 ---
+
 <head>
   <script defer="defer" src="https://embed.trydyno.com/embedder.js"></script>
   <link href="https://embed.trydyno.com/embedder.css" rel="stylesheet" />
@@ -24,7 +25,7 @@ Zero-Shot Prompting 是一种自然语言处理技术，可以让计算机模型
 2. 尽管 Zero-Shot Prompting 技术不需要为每个任务训练单独的模型，但为了获得最佳性能，它需要大量的样本数据进行微调。像 ChatGPT 就是一个例子，它的样本数量是过千亿。
 3. 由于 Zero-Shot Prompting 技术的灵活性和通用性，它的输出有时可能不够准确，或不符合预期。这可能需要对模型进行进一步的微调或添加更多的提示文本来纠正。
 
-## 技巧7：Zero-Shot Chain of Thought
+## 技巧 7：Zero-Shot Chain of Thought
 
 基于上述的第三点缺点，研究人员就找到了一个叫 Chain of Thought 的技巧。
 
@@ -54,12 +55,158 @@ Zero-Shot Prompting 是一种自然语言处理技术，可以让计算机模型
 ---
 
 2023-04-12 更新（感谢[qq-740943515](https://github.com/qq-740943515)分享）：
-根据 Yongchao Zhou 等人的[最新论文](https://sites.google.com/view/automatic-prompt-engineer)，更好的 prompt 是:
+根据 Yongchao Zhou 等人的[最新论文](https://sites.google.com/view/automatic-prompt-engineer)，更好的 prompt 是：
+
 ```
 Let's work this out in a step by step way to be sure we have the right answer.
 ```
 
 ---
 
-下一章我们会结合 Few-Shot Chain of Thought 来详细讲讲逻辑链的限制。
+在吴恩达的 ChatGPT Prompt Engineering [课程](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)中，有提到一个这个技巧的另一种用法，不仅仅只是让 AI 按步骤行事，还会告知 AI 每一步要做什么。比如这个案例（注意这个是 python 代码）：
 
+```
+prompt_2 = f"""
+Your task is to perform the following actions:
+1 - Summarize the following text delimited by
+  <> with 1 sentence.
+2 - Translate the summary into French.
+3 - List each name in the French summary.
+4 - Output a json object that contains the
+  following keys: french_summary, num_names.
+
+Use the following format:
+Text: <text to summarize>
+Summary: <summary>
+Translation: <summary translation>
+Names: <list of names in Italian summary>
+Output JSON: <json with summary and num_names>
+
+Text: <{text}>
+"""
+```
+
+简单解释下这个代码：
+
+1. 开头是让 AI 按照 1 ～ 4 步运行
+2. 然后再让 AI 根据特定格式输出内容
+
+最后 AI 的输出是这样的：
+
+```
+Summary: Jack and Jill go on a quest to fetch water, but misfortune strikes and they tumble down the hill, returning home slightly battered but with their adventurous spirits undimmed.
+Translation: Jack et Jill partent en quête d'eau, mais la malchance frappe et ils dégringolent la colline, rentrant chez eux légèrement meurtris mais avec leurs esprits aventureux intacts.
+Names: Jack, Jill
+Output JSON: {"french_summary": "Jack et Jill partent en quête d'eau, mais la malchance frappe et ils dégringolent la colline, rentrant chez eux légèrement meurtris mais avec leurs esprits aventureux intacts.", "num_names": 2}
+```
+
+上述的案例只是将任务拆解，能让 AI 生成的结果更加符合要求，这个方法同样能提升 AI 的回答准确性，比如这个案例：
+
+```
+Determine if the student's solution is correct or not.
+
+Question:
+I'm building a solar power installation and I need help working out the financials.
+
+Land costs $100 / square foot
+
+I can buy solar panels for $250 / square foot
+
+I negotiated a contract for maintenance that will cost \
+me a flat $100k per year, and an additional $10 / square foot
+What is the total cost for the first year of operations
+as a function of the number of square feet.
+
+Student's Solution:
+Let x be the size of the installation in square feet.
+Costs:
+
+Land cost: 100x
+
+Solar panel cost: 250x
+
+Maintenance cost: 100,000 + 100x
+Total cost: 100x + 250x + 100,000 + 100x = 450x + 100,000
+
+```
+
+AI 的回答是「The student's solution is correct」。但其实学生的答案是错误的，应该 360x + 100,000，我们将 prompt 调整成这样：
+
+```python
+prompt = f"""
+Your task is to determine if the student's solution \
+is correct or not.
+To solve the problem do the following:
+- First, work out your own solution to the problem.
+- Then compare your solution to the student's solution \
+and evaluate if the student's solution is correct or not.
+Don't decide if the student's solution is correct until
+you have done the problem yourself.
+Use the following format:
+Question:
+###
+question here
+###
+Student's solution:
+###
+student's solution here
+###
+Actual solution:
+###
+steps to work out the solution and your solution here
+###
+Is the student's solution the same as actual solution \
+just calculated:
+###
+yes or no
+###
+Student grade:
+###
+correct or incorrect
+###
+Question:
+###
+I'm building a solar power installation and I need help \
+working out the financials.
+- Land costs $100 / square foot
+- I can buy solar panels for $250 / square foot
+- I negotiated a contract for maintenance that will cost \
+  me a flat $100k per year, and an additional $10 / square \
+  foot
+  What is the total cost for the first year of operations \
+  as a function of the number of square feet.
+###
+Student's solution:
+###
+Let x be the size of the installation in square feet.
+Costs:
+1. Land cost: 100x
+2. Solar panel cost: 250x
+3. Maintenance cost: 100,000 + 100x
+   Total cost: 100x + 250x + 100,000 + 100x = 450x + 100,000
+###
+Actual solution:
+"""
+```
+
+本质上，也是将任务分拆成多步，这次 AI 输出的结果是这样的（结果就是正确的了）：
+
+```
+Let x be the size of the installation in square feet.
+
+Costs:
+
+1. Land cost: 100x
+2. Solar panel cost: 250x
+3. Maintenance cost: 100,000 + 10x
+
+Total cost: 100x + 250x + 100,000 + 10x = 360x + 100,000
+
+Is the student's solution the same as actual solution just calculated:
+No
+
+Student grade:
+Incorrect
+```
+
+下一章我们会结合 Few-Shot Chain of Thought 来详细讲讲逻辑链的限制。

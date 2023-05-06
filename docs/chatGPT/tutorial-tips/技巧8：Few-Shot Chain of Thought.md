@@ -1,6 +1,7 @@
 ---
 sidebar_position: 8
 ---
+
 <head>
   <script defer="defer" src="https://embed.trydyno.com/embedder.js"></script>
   <link href="https://embed.trydyno.com/embedder.css" rel="stylesheet" />
@@ -12,7 +13,7 @@ sidebar_position: 8
 
 > 通过向大语言模型展示一些少量的样例，并在样例中解释推理过程，大语言模型在回答提示时也会显示推理过程。这种推理的解释往往会引导出更准确的结果。
 
-下面是论文里的案例，使用方法很简单，在技巧2 的基础上，再将逻辑过程告知给模型即可。从下面这个案例里，你可以看到加入解释后，输出的结果就正确了。
+下面是论文里的案例，使用方法很简单，在技巧 2 的基础上，再将逻辑过程告知给模型即可。从下面这个案例里，你可以看到加入解释后，输出的结果就正确了。
 
 ![FewShotChainOfThought001.png](./assets/FewShotChainOfThought001.png)
 
@@ -31,7 +32,7 @@ A: Adding all the odd numbers (11, 13) gives 24. The answer is True.
 The odd numbers in this group add up to an even number: 17,  9, 10, 12, 13, 4, 2.
 A: Adding all the odd numbers (17, 9, 13) gives 39. The answer is False.
 
-The odd numbers in this group add up to an even number: 15, 32, 5, 13, 82, 7, 1. 
+The odd numbers in this group add up to an even number: 15, 32, 5, 13, 82, 7, 1.
 A:
 ```
 
@@ -57,10 +58,9 @@ Positive
 
 在上述的案例里，每一行，我都写了一句话和一个情感词，并用 // 分开，但我给这些句子都标记了错误的答案，比如第一句其实应该是 Positive 才对。但：
 
-1. 即使我给内容打的标签是错误的（比如第一句话，其实应该是 Positive），对于模型来说，它仍然会知道需要输出什么东西。 换句话说，模型知道 // 划线后要输出一个衡量该句子表达何种感情的词（Positive or Negative）。这就是前面论文里 #1 提到的，即使我给的标签是错误的，或者换句话说，是否基于事实，并不重要。标签和输入的文本，以及格式才是关键因素。
+1. 即使我给内容打的标签是错误的（比如第一句话，其实应该是 Positive），对于模型来说，它仍然会知道需要输出什么东西。换句话说，模型知道 // 划线后要输出一个衡量该句子表达何种感情的词（Positive or Negative）。这就是前面论文里 #1 提到的，即使我给的标签是错误的，或者换句话说，是否基于事实，并不重要。标签和输入的文本，以及格式才是关键因素。
 2. 只要给了示例，即使随机的标签，对于模型生成结果来说，都是有帮助的。这就是前面论文里 #2 提到的内容。
 
 最后，需要记住，思维链仅在使用大于等于 100B 参数的模型时，才会生效。
 
 BTW，如果你想要了解更多相关信息，可以看看斯坦福大学的讲义：[Natural Language Processing with Deep Learning](http://web.stanford.edu/class/cs224n/slides/cs224n-2023-lecture11-prompting-rlhf.pdf)
-
