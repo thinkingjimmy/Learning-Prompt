@@ -1,5 +1,5 @@
 ---
-title: 后续计划 & 回答大家关心的问题
+title: 2023-03-24 后续计划
 tags: [feature, release]
 ---
 
@@ -25,22 +25,17 @@ tags: [feature, release]
 
 **Q3：会分享一些 prompt 模板吗？**
 
- 
-
 **Q4：如何注册 ChatGPT？**
 
 抱歉，这个各位可以自行百度或谷歌，小红书上也有不少相关教程。
 
-
 ---
 
 也欢迎各位通过以下社交平台关注我：
-* [即刻](https://web.okjike.com/u/1CC74CB0-B6D3-4247-AC48-5C33E8983723)：这是我的个人号，不定期分享 AI 相关的信息。
-* [小红书](https://www.xiaohongshu.com/user/profile/6073d38d00000000010068a6?xhsshare=CopyLink&appuid=6073d38d00000000010068a6&apptime=1679646639)：这个账号主要是分享一些 AI 使用技巧。
+
+- [即刻](https://web.okjike.com/u/1CC74CB0-B6D3-4247-AC48-5C33E8983723)：这是我的个人号，不定期分享 AI 相关的信息。
+- [小红书](https://www.xiaohongshu.com/user/profile/6073d38d00000000010068a6?xhsshare=CopyLink&appuid=6073d38d00000000010068a6&apptime=1679646639)：这个账号主要是分享一些 AI 使用技巧。
 
 Keep Learning & Keep Building
 
 Jimmy
-
-
-

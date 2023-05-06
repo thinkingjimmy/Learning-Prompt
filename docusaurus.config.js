@@ -1,10 +1,10 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require('prism-react-renderer/themes/github')
+const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
-const tailwindPlugin = require('./plugins/tailwind-plugin.cjs');
+const tailwindPlugin = require('./plugins/tailwind-plugin.cjs')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -48,9 +48,7 @@ const config = {
     ],
   ],
 
-  plugins: [
-    tailwindPlugin,
-  ],
+  plugins: [tailwindPlugin],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -61,7 +59,7 @@ const config = {
         },
       },
       navbar: {
-        title:'Learning Prompt',
+        title: 'Learning Prompt',
         logo: {
           alt: 'Learning Prompt logo',
           src: 'img/logo.svg',
@@ -92,7 +90,7 @@ const config = {
             docId: 'midjourney-learning-path',
             label: '🖼️ Midjourney 教程',
           },
-          {to: '/blog', label: '📰 博客', position: 'left'},
+          { to: '/blog', label: '📰 更新日志', position: 'left' },
           {
             href: 'https://github.com/thinkingjimmy/Learning-Prompt',
             label: 'GitHub',
@@ -103,9 +101,9 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: ['rust']
+        additionalLanguages: ['rust'],
       },
     }),
-};
+}
 
-module.exports = config;
+module.exports = config
