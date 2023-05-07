@@ -44,6 +44,10 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        gtag: {
+          trackingID: 'G-9QBEXE7W09',
+          anonymizeIP: true,
+        },
       }),
     ],
   ],
@@ -91,6 +95,11 @@ const config = {
             label: '🖼️ Midjourney 教程',
           },
           { to: '/blog', label: '📰 更新日志', position: 'left' },
+          {
+            href: 'https://jimmywong.bio/',
+            label: '😎 关于我',
+            position: 'right',
+          },
           {
             href: 'https://github.com/thinkingjimmy/Learning-Prompt',
             label: 'GitHub',
