@@ -2,12 +2,12 @@
 sidebar_position: 7
 ---
 
+# 搭建基于知识库内容的机器人
+
 <head>
   <script defer="defer" src="https://embed.trydyno.com/embedder.js"></script>
   <link href="https://embed.trydyno.com/embedder.css" rel="stylesheet" />
 </head>
-
-# 搭建基于知识库内容的机器人
 
 如果你仅想要直接实践，可以看最后一部分实践，以及倒数第二部分限制与注意的地方。
 
@@ -133,4 +133,3 @@ BTW 你可以将其复制保存到自己的 Google Drive。
 - 总结
 - 提问
 - 信息提取
-
