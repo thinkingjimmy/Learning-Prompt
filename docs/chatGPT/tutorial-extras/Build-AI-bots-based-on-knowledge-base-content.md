@@ -1,17 +1,19 @@
 ---
 sidebar_position: 7
 ---
+
 <head>
   <script defer="defer" src="https://embed.trydyno.com/embedder.js"></script>
   <link href="https://embed.trydyno.com/embedder.css" rel="stylesheet" />
 </head>
 
+# 搭建基于知识库内容的机器人
 
 如果你仅想要直接实践，可以看最后一部分实践，以及倒数第二部分限制与注意的地方。
 
 ## 简介
 
-这个想法，来源于我的个人需求，我连载了将近 100 期 newsletter，积累了很多内容，我希望将这些资料导入给 AI ，然后 AI 能拿这些数据回答我的问题，甚至能给我一些写作建议等。
+这个想法，来源于我的个人需求，我连载了将近 100 期 newsletter，积累了很多内容，我希望将这些资料导入给 AI，然后 AI 能拿这些数据回答我的问题，甚至能给我一些写作建议等。
 
 最早的时候，我尝试过非常笨的方法，就是在提问的时候，将我的 newsletter 文本传给 AI，它的 prompt 大概是这样的：
 
@@ -23,7 +25,7 @@ My newsletter
 """
 ```
 
-这个方法能用是能用，但目前 ChatGPT 有个非常大的限制，它限制了最大的 token 数是 4096，大约是 16000 多个字符，注意这个是请求+响应，实际请求总数并没那么多。换句话来说，我一次没法导入太多的内容给 ChatGPT（我的一篇 Newsletter 就有将近 5000 字），这个问题就一直卡了我很久，直到我看到了 [GPT Index](https://gpt-index.readthedocs.io/en/latest/) 的库，以及 [Lennys Newsletter](https://www.lennysnewsletter.com/p/i-built-a-lenny-chatbot-using-gpt) 的例子。
+这个方法能用是能用，但目前 ChatGPT 有个非常大的限制，它限制了最大的 token 数是 4096，大约是 16000 多个字符，注意这个是请求 + 响应，实际请求总数并没那么多。换句话来说，我一次没法导入太多的内容给 ChatGPT（我的一篇 Newsletter 就有将近 5000 字），这个问题就一直卡了我很久，直到我看到了 [GPT Index](https://gpt-index.readthedocs.io/en/latest/) 的库，以及 [Lennys Newsletter](https://www.lennysnewsletter.com/p/i-built-a-lenny-chatbot-using-gpt) 的例子。
 
 试了下，非常好用，而且步骤也很简单，即使你不懂编程也能轻易地按照步骤实现这个功能。
 
@@ -69,7 +71,7 @@ GPTIndex 这个库简单理解就是做上图左边的那个部分，它的工�
 
 ## 实践
 
-为了让大家更方便使用，我将代码放在了 Google Colab，你无需安装任何环境，只需要用浏览器打开这个:
+为了让大家更方便使用，我将代码放在了 Google Colab，你无需安装任何环境，只需要用浏览器打开这个：
 [代码文件](https://colab.research.google.com/drive/1Fr1hxYOG5lss9vbvZlaw-11wM2U6N7cQ)
 
 BTW 你可以将其复制保存到自己的 Google Drive。
@@ -100,7 +102,7 @@ BTW 你可以将其复制保存到自己的 Google Drive。
 不过第三步里，你可以尝试改下参数，你可以改：
 
 1. **num_ouputs ：**这个是设置最大的输出 token 数，越大，回答问题的时候，机器能回答的字就越多。
-2. **Temperature：** 这个主要是控制模型生成结果的随机性。简而言之，温度越低，结果越确定，但也会越平凡或无趣。如果你想要得到一些出人意料的回答，不妨将这个参数调高一些。但如果你的场景是基于事实的场景，比如数据提取、FAQ 场景，此参数就最好调成 0 。
+2. **Temperature：** 这个主要是控制模型生成结果的随机性。简而言之，温度越低，结果越确定，但也会越平凡或无趣。如果你想要得到一些出人意料的回答，不妨将这个参数调高一些。但如果你的场景是基于事实的场景，比如数据提取、FAQ 场景，此参数就最好调成 0。
 
 其他参数不去管它就好，问题不大。
 
