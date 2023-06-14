@@ -32,4 +32,4 @@
 * [获得好结果的六种策略](huo-de-hao-jie-guo-de-liu-zhong-ce-lve/README.md)
   * [指令的内容清晰明确](huo-de-hao-jie-guo-de-liu-zhong-ce-lve/zhi-ling-de-nei-rong-qing-xi-ming-que.md)
   * [提供参考文本](huo-de-hao-jie-guo-de-liu-zhong-ce-lve/ti-gong-can-kao-wen-ben.md)
-  * [将复杂任务拆分为更简单的子任务](huo-de-hao-jie-guo-de-liu-zhong-ce-lve/jiang-fu-za-ren-wu-chai-fen-wei-geng-jian-dan-de-zi-ren-wu.md)
+  * [将复杂任务拆分为子任务](huo-de-hao-jie-guo-de-liu-zhong-ce-lve/jiang-fu-za-ren-wu-chai-fen-wei-zi-ren-wu.md)

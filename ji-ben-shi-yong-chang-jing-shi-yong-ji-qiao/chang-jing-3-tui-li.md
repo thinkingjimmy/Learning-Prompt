@@ -35,6 +35,6 @@ x = 90,000
 所以房子的售价是90,000美元。
 ```
 
-<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
 这个场景还比较简单，我就不在这举更多例子了，你可以将各种题目输入进小语 GPT 里试试。
