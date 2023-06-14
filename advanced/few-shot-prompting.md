@@ -2,70 +2,71 @@
 sidebar_position: 3
 ---
 
-# Few-Shot Prompting
+# 少样本提示
 
-同样在推理场景，我提到了 Few-Shot Prompting 的技术，本章介绍下它的优缺点和技巧。
+同样在推理场景，我们提到了少样本提示（Few-Shot Prompting）的技术，本章介绍下它的优缺点和技巧。
 
 ### 介绍
 
-我们在技巧2 中，提到我们可以给模型一些示例，从而让模型返回更符合我们需求的答案。这个技巧其实使用了一个叫 Few-Shot 的方法。
+我们在技巧2 中，提到了可以给模型一些示例，从而让模型返回更符合我们需求的答案。这个技巧其实使用的就是少样本提示的方法。
 
-这个方法最早是 Brown 等人在 2020 年[发现的](https://arxiv.org/pdf/2005.14165.pdf)，论文里有一个这样的例子，非常有意思，通过这个例子你应该更能体会，像 ChatGPT 这类统计语言模型，其实并不懂意思，只是懂概率 😁
+这个方法最早是 Brown 等人在 2020 年[发现的](https://arxiv.org/pdf/2005.14165.pdf)，论文里有一个这样的例子，非常有意思，通过这个例子你应该更能体会，像 ChatGPT 这类统计语言模型，其实并不懂意思，只是懂概率 😁。
 
 Brown 输入的内容是这样的（whatpu 和 farduddle 其实根本不存在）：
 
+{% code overflow="wrap" %}
 ```other
-A "whatpu" is a small, furry animal native to Tanzania. An example of a sentence that uses
-the word whatpu is:
-We were traveling in Africa and we saw these very cute whatpus.
-To do a "farduddle" means to jump up and down really fast. An example of a sentence that uses
-the word farduddle is:
+"whatpu"是坦桑尼亚本土的一种小型毛茸茸动物。一个使用了这个词的句子是：我们在非洲旅行时看到了这些非常可爱的whatpus。
+"farduddle"意味着快速地跳上跳下。一个使用了这个词的句子是：
+```
+{% endcode %}
+
+回复是这样的：
+
+```other
+孩子们在草地上快乐地farduddle，充满了活力。
 ```
 
-Output 是这样的：
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
-```other
-When we won the game, we all started to farduddle in celebration.
-```
-
-不过这并不代表，Few-Shot 就没有缺陷，我们试试下面这个例子：
+不过这并不代表，少样本提示就没有缺陷，我们试试下面这个例子：
 
 Prompt：
 
 ```other
-The odd numbers in this group add up to an even number: 4, 8, 9, 15, 12, 2, 1.
-A: The answer is False.
+这组数中的奇数之和为偶数：4, 8, 9, 15, 12, 2, 1。
+答案：错误。
 
-The odd numbers in this group add up to an even number: 17,  10, 19, 4, 8, 12, 24.
-A: The answer is True.
+这组数中的奇数之和为偶数：17, 10, 19, 4, 8, 12, 24。
+答案：正确。
 
-The odd numbers in this group add up to an even number: 16,  11, 14, 4, 8, 13, 24.
-A: The answer is True.
+这组数中的奇数之和为偶数：16, 11, 14, 4, 8, 13, 24。
+答案：正确。
 
-The odd numbers in this group add up to an even number: 17,  9, 10, 12, 13, 4, 2.
-A: The answer is False.
+这组数中的奇数之和为偶数：17, 9, 10, 12, 13, 4, 2。
+答案：错误。
 
-The odd numbers in this group add up to an even number: 15, 32, 5, 13, 82, 7, 1. 
-A:
+这组数中的奇数之和为偶数：15, 32, 5, 13, 82, 7, 1。
+答案：
 ```
 
-Output 是这样的：
+答案是这样的：
 
 ```other
-The answer is True.
+答案：正确。
 ```
 
 输出的答案其实是错误的，实际上的答案应该是：
 
 ```other
-Adding all the odd numbers (15, 5, 13, 7, 1) gives 41. The answer is False.
+将所有奇数（15、5、13、7、1）相加得到41。答案是错误的。
 ```
 
 那我们有没有什么方法解决？
 
-### 技巧8：Few-Shot Chain of Thought
+### 技巧8：少样本思维链
 
-要解决这个缺陷，就要使用到新的技巧，Few-Shot Chain of Thought。
+要解决这个缺陷，就要使用到新的技巧「少样本思维链」。
 
 根据 Wei 他们团队在 [2022 年的研究](https://arxiv.org/pdf/2201.11903.pdf)表明：
 
@@ -78,47 +79,47 @@ Adding all the odd numbers (15, 5, 13, 7, 1) gives 41. The answer is False.
 那本章开头提的例子就应该是这样的（注：本例子同样来自 Wei 团队论文）：
 
 ```other
-The odd numbers in this group add up to an even number: 4, 8, 9, 15, 12, 2, 1.
-A: Adding all the odd numbers (9, 15, 1) gives 25. The answer is False.
+这组奇数相加的和是一个偶数：4, 8, 9, 15, 12, 2, 1。
+答：把所有奇数（9, 15, 1）相加得到25。答案是错误的。
 
-The odd numbers in this group add up to an even number: 17,  10, 19, 4, 8, 12, 24.
-A: Adding all the odd numbers (17, 19) gives 36. The answer is True.
+这组奇数相加的和是一个偶数：17, 10, 19, 4, 8, 12, 24。
+答：把所有奇数（17, 19）相加得到36。答案是正确的。
 
-The odd numbers in this group add up to an even number: 16,  11, 14, 4, 8, 13, 24.
-A: Adding all the odd numbers (11, 13) gives 24. The answer is True.
+这组奇数相加的和是一个偶数：16, 11, 14, 4, 8, 13, 24。
+答：把所有奇数（11, 13）相加得到24。答案是正确的。
 
-The odd numbers in this group add up to an even number: 17,  9, 10, 12, 13, 4, 2.
-A: Adding all the odd numbers (17, 9, 13) gives 39. The answer is False.
+这组奇数相加的和是一个偶数：17, 9, 10, 12, 13, 4, 2。
+答：把所有奇数（17, 9, 13）相加得到39。答案是错误的。
 
-The odd numbers in this group add up to an even number: 15, 32, 5, 13, 82, 7, 1. 
-A:
+这组奇数相加的和是一个偶数：15, 32, 5, 13, 82, 7, 1。
+答：
 ```
 
-聊完技巧，我们再结合前面的 Zero-Shot Chain of Thought，来聊聊 Chain of Thought 的关键知识。根据 [Sewon Min](https://arxiv.org/search/cs?searchtype=author\&query=Min%2C+S) 等人在 [2022 年的研究](https://arxiv.org/abs/2202.12837) 表明，思维链有以下特点：
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-1. "the label space and the distribution of the input text specified by the demonstrations are both key (regardless of whether the labels are correct for individual inputs)" 标签空间和输入文本的分布都是关键因素（无论这些标签是否正确）。
-2. the format you use also plays a key role in performance, even if you just use random labels, this is much better than no labels at all. 即使只是使用随机标签，使用适当的格式也能提高性能。
+聊完技巧，我们再结合前面的零样本思维链，来聊聊思维链的关键知识。根据 [Sewon Min](https://arxiv.org/search/cs?searchtype=author\&query=Min%2C+S) 等人在 [2022 年的研究](https://arxiv.org/abs/2202.12837) 表明，思维链有以下特点：
 
-理解起来有点难，我找一个 prompt 案例给大家解释（🆘 如果你有更好的解释，不妨反馈给我）。我给 ChatGPT 一些不一定准确的例子：
+1. 标签空间和输入文本的分布都是关键因素（无论这些标签是否正确）。
+2. 即使只是使用随机标签，使用适当的格式也能提高性能。
+
+理解起来有点难，我们找一个提示语案例给大家解释。我们给小语 GPT 一些不一定准确的例子：
 
 ```other
-I loved the new Batman movie!  // Negative
-This is bad // Positive
-This is good // Negative
-What a good show! //
+我喜欢新的蝙蝠侠电影！// 消极
+这很糟糕 // 积极
+这很好 // 消极
+真是一场好表演！//
 ```
 
-Output 是这样的：
+回复是这样的：
 
 ```other
-Positive
+消极
 ```
 
-在上述的案例里，每一行，我都写了一句话和一个情感词，并用 // 分开，但我给这些句子都标记了错误的答案，比如第一句其实应该是 Positive 才对。但：
+<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
-1. 即使我给内容打的标签是错误的（比如第一句话，其实应该是 Positive），对于模型来说，它仍然会知道需要输出什么东西。 换句话说，模型知道 // 划线后要输出一个衡量该句子表达何种感情的词（Positive or Negative）。这就是前面论文里 #1 提到的，即使我给的标签是错误的，或者换句话说，是否基于事实，并不重要。标签和输入的文本，以及格式才是关键因素。
+在上述的案例里，每一行，我们都写了一句话和一个情感词，并用 // 分开，但我给这些句子都标记了错误的答案，比如第一句其实应该是积极才对。但：
+
+1. 即使我们给内容打的标签是错误的（比如第一句话，其实应该是积极），对于模型来说，它仍然会知道需要输出什么东西。 换句话说，模型知道 // 划线后要输出一个衡量该句子表达何种感情的词（积极或者消极）。这就是前面论文里 #1 提到的，即使我们给的标签是错误的，或者换句话说，是否基于事实，并不重要。标签和输入的文本，以及格式才是关键因素。
 2. 只要给了示例，即使随机的标签，对于模型生成结果来说，都是有帮助的。这就是前面论文里 #2 提到的内容。
-
-最后，需要记住，思维链仅在使用大于等于 100B 参数的模型时，才会生效。
-
-BTW，如果你想要了解更多相关信息，可以看看斯坦福大学的讲义：[Natural Language Processing with Deep Learning](http://web.stanford.edu/class/cs224n/slides/cs224n-2023-lecture11-prompting-rlhf.pdf)

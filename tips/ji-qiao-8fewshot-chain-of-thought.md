@@ -2,9 +2,7 @@
 sidebar_position: 8
 ---
 
-# 技巧8：Few-Shot Chain of Thought
-
-要解决这个缺陷，就要使用到新的技巧，Few-Shot Chain of Thought。
+# 技巧8：少样本思维链
 
 根据 Wei 他们团队在 [2022 年的研究](https://arxiv.org/pdf/2201.11903.pdf)表明：
 
@@ -17,47 +15,47 @@ sidebar_position: 8
 那本章开头提的例子就应该是这样的（注：本例子同样来自 Wei 团队论文）：
 
 ```other
-The odd numbers in this group add up to an even number: 4, 8, 9, 15, 12, 2, 1.
-A: Adding all the odd numbers (9, 15, 1) gives 25. The answer is False.
+这组奇数相加的和是一个偶数：4, 8, 9, 15, 12, 2, 1。
+答：把所有奇数（9, 15, 1）相加得到25。答案是错误的。
 
-The odd numbers in this group add up to an even number: 17,  10, 19, 4, 8, 12, 24.
-A: Adding all the odd numbers (17, 19) gives 36. The answer is True.
+这组奇数相加的和是一个偶数：17, 10, 19, 4, 8, 12, 24。
+答：把所有奇数（17, 19）相加得到36。答案是正确的。
 
-The odd numbers in this group add up to an even number: 16,  11, 14, 4, 8, 13, 24.
-A: Adding all the odd numbers (11, 13) gives 24. The answer is True.
+这组奇数相加的和是一个偶数：16, 11, 14, 4, 8, 13, 24。
+答：把所有奇数（11, 13）相加得到24。答案是正确的。
 
-The odd numbers in this group add up to an even number: 17,  9, 10, 12, 13, 4, 2.
-A: Adding all the odd numbers (17, 9, 13) gives 39. The answer is False.
+这组奇数相加的和是一个偶数：17, 9, 10, 12, 13, 4, 2。
+答：把所有奇数（17, 9, 13）相加得到39。答案是错误的。
 
-The odd numbers in this group add up to an even number: 15, 32, 5, 13, 82, 7, 1.
-A:
+这组奇数相加的和是一个偶数：15, 32, 5, 13, 82, 7, 1。
+答：
 ```
 
-聊完技巧，我们再结合前面的 Zero-Shot Chain of Thought，来聊聊 Chain of Thought 的关键知识。根据 [Sewon Min](https://arxiv.org/search/cs?searchtype=author\&query=Min%2C+S) 等人在 [2022 年的研究](https://arxiv.org/abs/2202.12837) 表明，思维链有以下特点：
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-1. "the label space and the distribution of the input text specified by the demonstrations are both key (regardless of whether the labels are correct for individual inputs)" 标签空间和输入文本的分布都是关键因素（无论这些标签是否正确）。
-2. the format you use also plays a key role in performance, even if you just use random labels, this is much better than no labels at all. 即使只是使用随机标签，使用适当的格式也能提高性能。
+聊完技巧，我们再结合前面的零样本思维链，来聊聊思维链的关键知识。根据 [Sewon Min](https://arxiv.org/search/cs?searchtype=author\&query=Min%2C+S) 等人在 [2022 年的研究](https://arxiv.org/abs/2202.12837) 表明，思维链有以下特点：
 
-理解起来有点难，我一个 prompt 案例给大家解释（🆘 如果你有更好的解释，不妨反馈给我）。我给 ChatGPT 一些不一定准确的例子：
+1. 标签空间和输入文本的分布都是关键因素（无论这些标签是否正确）。
+2. 即使只是使用随机标签，使用适当的格式也能提高性能。
+
+理解起来有点难，我们找一个提示语案例给大家解释。我们给小语 GPT 一些不一定准确的例子：
 
 ```other
-I loved the new Batman movie!  // Negative
-This is bad // Positive
-This is good // Negative
-What a good show! //
+我喜欢新的蝙蝠侠电影！// 消极
+这很糟糕 // 积极
+这很好 // 消极
+真是一场好表演！//
 ```
 
-Output 是这样的：
+回复是这样的：
 
 ```other
-Positive
+消极
 ```
 
-在上述的案例里，每一行，我都写了一句话和一个情感词，并用 // 分开，但我给这些句子都标记了错误的答案，比如第一句其实应该是 Positive 才对。但：
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-1. 即使我给内容打的标签是错误的（比如第一句话，其实应该是 Positive），对于模型来说，它仍然会知道需要输出什么东西。换句话说，模型知道 // 划线后要输出一个衡量该句子表达何种感情的词（Positive or Negative）。这就是前面论文里 #1 提到的，即使我给的标签是错误的，或者换句话说，是否基于事实，并不重要。标签和输入的文本，以及格式才是关键因素。
+在上述的案例里，每一行，我们都写了一句话和一个情感词，并用 // 分开，但我给这些句子都标记了错误的答案，比如第一句其实应该是积极才对。但：
+
+1. 即使我们给内容打的标签是错误的（比如第一句话，其实应该是积极），对于模型来说，它仍然会知道需要输出什么东西。 换句话说，模型知道 // 划线后要输出一个衡量该句子表达何种感情的词（积极或者消极）。这就是前面论文里 #1 提到的，即使我们给的标签是错误的，或者换句话说，是否基于事实，并不重要。标签和输入的文本，以及格式才是关键因素。
 2. 只要给了示例，即使随机的标签，对于模型生成结果来说，都是有帮助的。这就是前面论文里 #2 提到的内容。
-
-最后，需要记住，思维链仅在使用大于等于 100B 参数的模型时，才会生效。
-
-BTW，如果你想要了解更多相关信息，可以看看斯坦福大学的讲义：[Natural Language Processing with Deep Learning](http://web.stanford.edu/class/cs224n/slides/cs224n-2023-lecture11-prompting-rlhf.pdf)

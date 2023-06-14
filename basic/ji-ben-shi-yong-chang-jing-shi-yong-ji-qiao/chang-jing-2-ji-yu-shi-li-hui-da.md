@@ -8,49 +8,51 @@ sidebar_position: 2
 
 在某些场景下，我们能比较简单地向 AI 描述出什么能做，什么不能做。但有些场景，有些需求很难通过文字指令传递给 AI，即使描述出来了，AI 也不能很好地理解。
 
-比如给宠物起英文名，里面会夹杂着一些所谓的名字风格。此时你就可以在 prompt 里增加一些例子，我们看看这个例子。
+比如给宠物起英文名，里面会夹杂着一些所谓的名字风格。此时你就可以在提示语里增加一些例子，我们看看这个例子。
 
-这个是没有任何示例的 Prompt：
+这个是没有任何示例的提示语：
 
 ```other
-Suggest three names for a horse that is a superhero.
+为一匹拥有超能力的马儿起三个名字。
 ```
 
-Output 如下所示。第一个感觉还行，第二个 Captain 有 hero 的感觉，但 Canter 就像是说这匹马跑得很慢，感觉不太合适，而且三个都比较一般，不够酷。
+回复如下所示。第一个和第二个感觉还行，第三个成了马术貌似与马儿名字无关。整体来看三个都比较一般，不够酷。
 
 ```other
-Thunder Hooves, Captain Canter, Mighty Gallop
+1. 超能马
+2. 飞驰神驹
+3. 神奇马术
 ```
 
 ### **技巧 2：增加示例**
 
-如果你无法用文字准确解释问题或指示，你可以在 prompt 里增加一些案例：
+如果你无法用文字准确解释问题或指示，你可以在提示语里增加一些案例：
 
 ```other
-Suggest three names for an animal that is a superhero.
+为一种拥有超能力的动物起三个名字。
 
-Animal: Cat
-Names: Captain Sharpclaw, Agent Fluffball, The Incredible Feline
-Animal: Dog
-Names: Ruff the Protector, Wonder Canine, Sir Barks-a-Lot
-Animal: Horse
-Names:
+动物：猫
+名字：利爪队长、特工绒球、神奇猫侠
+
+动物：狗
+名字：护卫者拉夫、神奇犬侠、巴克爵士
+
+动物：马
+名字：
 ```
 
-增加例子后，Output 的结果就更酷一些，或者说是接近我想要的那种风格的名字。
+增加例子后，回复的结果就更酷一些，或者说是接近我们想要的那种风格的名字。
 
 ```other
-Gallop Guardian, Equine Avenger, The Mighty Stallion
+风驰电掣、神奇马侠、奔雷神骏
 ```
 
-以下是一些场景案例，我整理了两个 Less Effective（不太有效的）和 Better（更好的）prompt，你可以自己尝试下这些案例：
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-| 场景            | Less Effective                                                                                                                     | Better                                                                                                                                                                                                                                                                                     | 原因                                |
-| ------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------- |
-| 起产品名          | <p>Product description: A pair of shoes that can fit any foot size.<br>Seed words: adaptable, fit, omni-fit.<br>Product names:</p> | <p>Product description: A home milkshake maker<br>Seed words: fast, healthy, compact.<br>Product names: HomeShaker, Fit Shaker, QuickShake, Shake Maker<br>Product description: A pair of shoes that can fit any foot size.<br>Seed words: adaptable, fit, omni-fit.<br>Product names:</p> | 可以在下方运行这个案例，在不给示例的情况下 AI 会给你什么答案。 |
-| 将电影名称转为 emoji | Convert Star Wars into emoji                                                                                                       | <p>Convert movie titles into emoji.<br>Back to the Future: 👨👴🚗🕒<br>Batman: 🤵🦇<br>Transformers: 🚗🤖<br>Star Wars:</p>                                                                                                                                                                | 可以在下方运行这个案例，在不给示例的情况下 AI 会给你什么答案。 |
+以下是一些场景案例，我们整理了两个"不太有效的" 和 "更好的" 的提示语，你可以自己尝试下这些案例：
 
-Failed to load Dyno Embed: JavaScript must be enabled\
+<table><thead><tr><th width="154">场景</th><th>不太有效的</th><th>更好的</th><th>原因</th></tr></thead><tbody><tr><td>起产品名</td><td><p>产品描述：一双适合任何脚型的鞋子。 </p><p>关键词：适应性强，合适，全尺寸适配。 产品名称：</p></td><td><p>产品描述：家用奶昔制作器 </p><p>关键词：快速，健康，紧凑。 </p><p>产品名称：家享摇摇机、健康摇摇机、速摇奶昔、摇摇大师</p><p><br>产品描述：一双适合任何脚型的鞋子。 </p><p>关键词：适应性强，合适，全尺寸适配。 </p><p>产品名称：</p></td><td>你可以在 AI 提示语中运行这个案例，在不给示例的情况下 AI 会给你什么答案。</td></tr><tr><td>将电影名称转为 emoji</td><td>将《星球大战》转换为表情符号</td><td><p>将电影名称转换为表情符号。 </p><p>回到未来：👨👴🚗🕒 </p><p>蝙蝠侠：🤵🦇 </p><p>变形金刚：🚗🤖 </p><p>星球大战：</p></td><td>你可以在 AI 提示语中运行这个案例，在不给示例的情况下 AI 会给你什么答案。</td></tr></tbody></table>
 
 
-:::info 🔴 你可能在试用此技巧的时候发现，即使给了案例，模型也不一定会返回正确的答案，此时你就需要用到更高级的技巧，在高级篇我会讲如何优化这个提示，从而让结果更加准确。 :::
+
+:::info 🔴 你可能在试用此技巧的时候发现，即使给了案例，模型也不一定会返回正确的答案，此时你就需要用到更高级的技巧，在高级篇我们会讲如何优化这个提示，从而让结果更加准确。 :::
