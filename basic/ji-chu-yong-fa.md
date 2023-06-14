@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# 基础用法
+# 🔰 基础用法
 
 [:::info 注意 本章节会简单介绍下 prompt ，如果你已经懂得使用 ChatGPT 这类产品的用法，可跳过这一章。 :::](#user-content-fn-1)[^1]
 
