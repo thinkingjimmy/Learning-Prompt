@@ -1,8 +1,4 @@
----
-sidebar_position: 5
----
-
-# 场景5：锦上添花——改写内容
+# ✏️场景5：锦上添花——改写内容
 
 ### 场景介绍
 
@@ -56,7 +52,7 @@ OpenAI是一个在美国的机器人大脑研究地方，有两个部分组成�
 ```
 {% endcode %}
 
-<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
 另外除了增加角色外，还能让 AI 模拟某个人，比如让 AI 以大卫·福斯特·华莱士的风格改写上述那段话：
 
@@ -72,6 +68,6 @@ OpenAI是一个在美国的机器人大脑研究地方，有两个部分组成�
 ```
 {% endcode %}
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 关于这个技巧的应用，以及如何更好地使用 AI 提升写作能力，大家有兴趣的可以阅读下 Nat Eliason 的 [Using ChatGPT as a Writing Coach](https://blog.nateliason.com/p/chatgpt-writing-coach)，他使用 ChatGPT 辅助其写作，就用到了上述的技巧。

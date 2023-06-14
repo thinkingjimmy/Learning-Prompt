@@ -1,8 +1,4 @@
----
-sidebar_position: 6
----
-
-# 场景6：锦上添花——信息解释
+# 📊场景6：锦上添花——信息解释
 
 ### 场景介绍
 
@@ -41,4 +37,4 @@ return x
 ```
 {% endcode %}
 
-<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>

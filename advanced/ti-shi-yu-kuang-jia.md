@@ -1,4 +1,4 @@
-# 提示语框架
+# 📋提示语框架
 
 看完基础篇的各种场景介绍后，你应该对提示语有较深的理解。
 
@@ -44,5 +44,5 @@
 
 将所有的元素都组合在一起，就变成了这样的提示语，对比基础提示语生成的结果会非常不一样。
 
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 

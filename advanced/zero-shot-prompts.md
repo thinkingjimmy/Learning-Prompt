@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# 零样本提示
+# 🔝零样本提示
 
 在基础篇里的推理场景，我们提到了零样本提示（Zero-Shot Prompts）的技术，本章会详细介绍它是什么，以及使用它的技巧。
 
@@ -191,6 +191,6 @@ AI 的回答是「学生的解答正确」。但其实学生的答案是错误�
 错误
 ```
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 下一章我们会结合「少样本思维链」来详细讲讲逻辑链的限制。

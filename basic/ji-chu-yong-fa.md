@@ -15,6 +15,6 @@ sidebar_position: 2
 *   另外，还有一个特别留意的，小语 GPT 跟你之前用的一些 AI 产品不同，它还支持多轮对话，比如当你问 “中国的首都是什么？”，它回答 北京，你可以接着问“那里有什么值得去的地方”，你不需要在问题里重复「北京」这个词。小语 GPT 知道"那里"指的就是「北京」。\
 
 
-    <figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
 [^1]: 
