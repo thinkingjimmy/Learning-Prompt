@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-# 技巧8：少样本思维链
+# 🔗 技巧8：少样本思维链
 
 根据 Wei 他们团队在 [2022 年的研究](https://arxiv.org/pdf/2201.11903.pdf)表明：
 
