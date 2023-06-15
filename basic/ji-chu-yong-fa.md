@@ -13,8 +13,8 @@ sidebar_position: 2
 *   你只需要登录 AI 提示语后，在输入框内输入问题，或者指令即可。AI 会根据你的指令，返回相应的内容，在后续的章节中，我会介绍更详细的用法与技巧：\
 
 
-    <figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 *   另外，还有一个特别留意的，小语 GPT 跟你之前用的一些 AI 产品不同，它还支持多轮对话，比如当你问 “中国的首都是什么？”，它回答 北京，你可以接着问“那里有什么值得去的地方”，你不需要在问题里重复「北京」这个词。小语 GPT 知道"那里"指的就是「北京」。\
 
 
-    <figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
