@@ -1,6 +1,6 @@
 # 🕵️‍♂️ 场景3：推理
 
-### 场景介绍
+## 场景介绍
 
 在问答这个大场景下，还有一个子场景是推理，这个场景非常有意思，而且是个非常值得深挖的场景，提示语在此场景里发挥的作用非常大。
 
@@ -35,6 +35,6 @@ x = 90,000
 所以房子的售价是90,000美元。
 ```
 
-<figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
 
 这个场景还比较简单，我就不在这举更多例子了，你可以将各种题目输入进小语 GPT 里试试。

@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# 📌 少样本提示
+# 🧪 少样本提示
 
 同样在推理场景，我们提到了少样本提示（Few-Shot Prompting）的技术，本章介绍下它的优缺点和技巧。
 
@@ -27,7 +27,7 @@ Brown 输入的内容是这样的（whatpu 和 farduddle 其实根本不存在�
 孩子们在草地上快乐地farduddle，充满了活力。
 ```
 
-<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 不过这并不代表，少样本提示就没有缺陷，我们试试下面这个例子：
 
@@ -117,7 +117,7 @@ Prompt：
 消极
 ```
 
-<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
 
 在上述的案例里，每一行，我们都写了一句话和一个情感词，并用 // 分开，但我给这些句子都标记了错误的答案，比如第一句其实应该是积极才对。但：
 

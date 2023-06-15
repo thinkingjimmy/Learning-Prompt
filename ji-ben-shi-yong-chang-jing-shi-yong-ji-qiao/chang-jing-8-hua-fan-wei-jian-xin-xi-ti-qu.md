@@ -1,6 +1,6 @@
 # 🔬 场景8：化繁为简——信息提取
 
-### 场景介绍
+## 场景介绍
 
 介绍完信息总结，再聊聊信息提取，我们认为这个场景是继场景 3 推理以外，第二个值得深挖的场景。这个场景有非常多的有意思的场景，比如：
 
@@ -57,9 +57,9 @@ Machinet通过从构建自己的机器学习系统转向使用Codex，实现了�
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
-### **技巧 6：通过格式词阐述需要输出的格式**
+## **技巧 6：通过格式词阐述需要输出的格式**
 
 上述的案例，就是用到了这个技巧。这个技巧是技巧 2 的变种，比较常用于生成文本场景。其实在场景 7 中，你也可以用到这个技巧。
 
@@ -97,7 +97,7 @@ Machinet通过从构建自己的机器学习系统转向使用Codex，实现了�
 - 社区和城市被毁
 ```
 
-<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
 关于这个场景和技巧想再解释一下为什么潜力很大。根据使用各种总结或者信息提取的产品发现，AI 并不知道什么是重点，所以在总结的过程中，会丢失很多内容。如何引导 AI 进行总结，就变得非常重要，且具有一定的可玩性。针对此场景的技巧：
 

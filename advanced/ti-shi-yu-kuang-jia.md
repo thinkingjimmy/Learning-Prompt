@@ -6,7 +6,7 @@
 
 高级篇的开篇，我们来讲一下构成提示语的框架。
 
-### 提示语基本框架
+## 提示语基本框架
 
 查阅了非常多关于 ChatGPT 提示语的框架资料，我目前觉得写得最清晰的是 Elavis Saravia [总结](https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/guides/prompts-intro.md)的框架，他认为一个提示语里需包含以下几个元素：
 
@@ -22,7 +22,7 @@
 * 推理：指令 + 背景信息 + 输入数据
 * 信息提取：指令 + 背景信息 + 输入数据 + 输出指示器
 
-### CRISPE 提示语框架
+## CRISPE 提示语框架
 
 另一个觉得很不错的 Framework 是 [Matt Nigh](https://github.com/mattnigh/ChatGPT3-Free-Prompt-List) 的 CRISPE框架，这个框架更加复杂，但完备性会比较高，比较适合用于编写提示语模板。CRISPE 分别代表以下含义：
 
@@ -44,5 +44,5 @@
 
 将所有的元素都组合在一起，就变成了这样的提示语，对比基础提示语生成的结果会非常不一样。
 
-<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 

@@ -1,6 +1,6 @@
 # 💻 场景4：无中生有——写代码
 
-### 场景介绍
+## 场景介绍
 
 除了回答问题外，另一个重要的场景是让 AI 根据你的要求完成一些内容生成任务，根据输出的结果差异，我们将其概括为以下几个主要场景：
 
@@ -44,9 +44,9 @@ WHERE d.DepartmentName = 'Computer Science Department';
 ````
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
-### **技巧 3：使用引导词，引导模型输出特定格式内容**
+## **技巧 3：使用引导词，引导模型输出特定格式内容**
 
 在代码生成场景里，有一个小技巧，上面提到的案例，其提示语还可以继续优化，在提示语最后，增加一个代码的引导，告知 AI 「我已经将条件描述完了，你可以写代码了」。
 

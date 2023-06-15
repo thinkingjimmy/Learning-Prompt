@@ -2,7 +2,7 @@
 sidebar_position: 7
 ---
 
-# ⛓️ 技巧7：零样本思维链
+# 🧠 技巧7：零样本思维链
 
 这个技巧使用起来非常简单，只需要在问题的结尾里放一句 `让我们一步一步地思考` （让我们一步步地思考），模型输出的答案会更加准确。
 
@@ -169,4 +169,4 @@ AI 的回答是「学生的解答正确」。但其实学生的答案是错误�
 错误
 ```
 
-<figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>

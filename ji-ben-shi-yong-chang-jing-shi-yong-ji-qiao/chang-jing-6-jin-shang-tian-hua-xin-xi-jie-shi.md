@@ -1,6 +1,6 @@
 # 📊 场景6：锦上添花——信息解释
 
-### 场景介绍
+## 场景介绍
 
 锦上添花下的第二大的场景是信息解释。它跟改写内容有点像，但又不太一样，信息解释有可能提供超过原文内容的信息。
 
@@ -37,4 +37,4 @@ return x
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
