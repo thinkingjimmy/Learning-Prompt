@@ -57,7 +57,7 @@ Machinet通过从构建自己的机器学习系统转向使用Codex，实现了�
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 
 ## **技巧 6：通过格式词阐述需要输出的格式**
 

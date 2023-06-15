@@ -49,7 +49,7 @@
 }
 ```
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 根据客户咨询的分类，我们可以为GPT模型提供一套更具体的指示来处理后续步骤。例如，假设客户需要帮助进行"故障排查"。
 
@@ -106,7 +106,7 @@
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
 请注意，这个模型就像一个游戏，它可以发出特殊的文字来告诉我们游戏进行到哪一步了。这样我们就可以把这个系统想象成一个游戏机，游戏机里的每一步都决定了我们应该做什么。通过记住每一步，了解在这一步我们可以做什么，以及下一步我们可以做什么，我们就可以更好地保护用户的体验，这在一些不太有规则的方法中是很难做到的。
 

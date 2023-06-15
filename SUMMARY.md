@@ -33,3 +33,4 @@
   * [指令的内容清晰明确](zui-jia-shi-jian-de-liu-zhong-ce-lve/zhi-ling-de-nei-rong-qing-xi-ming-que.md)
   * [提供参考文本](zui-jia-shi-jian-de-liu-zhong-ce-lve/ti-gong-can-kao-wen-ben.md)
   * [将复杂任务拆分为子任务](zui-jia-shi-jian-de-liu-zhong-ce-lve/jiang-fu-za-ren-wu-chai-fen-wei-zi-ren-wu.md)
+  * [给 GPT 一些“思考”时间](zui-jia-shi-jian-de-liu-zhong-ce-lve/gei-gpt-yi-xie-si-kao-shi-jian.md)

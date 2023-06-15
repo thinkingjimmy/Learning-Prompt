@@ -67,7 +67,7 @@ GPTs在推理方面的一个重要局限是它们无法进行因果推理，这�
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
 > 若你不清楚XML语法，可查阅 [W3cschool-XML语法](https://www.w3cschool.cn/xml/xml-syntax.html)
 
@@ -88,14 +88,15 @@ GPTs在推理方面的一个重要局限是它们无法进行因果推理，这�
 小语 4.0 回复：
 
 ```
-1. "GPT-4：大规模多模态模型的开发与优化"
-2. "超越人类水平：GPT-4在专业和学术基准测试中的表现"
-3. "基于Transformer的模型GPT-4：开发过程与预测能力"
-4. "GPT-4：预测行为的基础设施和优化方法的开发"
-5. "GPT-4：从预训练到后期训练的对齐过程"
+备选标题：
+1. GPT-4：大规模多模态模型的开发与应用
+2. 探索GPT-4：人工智能领域的新突破
+3. GPT-4：跨越图像和文本的智能模型
+4. GPT-4：基于Transformer的多模态人工智能模型
+5. GPT-4：实现人类水平表现的智能模型
 ```
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
 ## **四、明确指定完成任务所需的步骤**
 
