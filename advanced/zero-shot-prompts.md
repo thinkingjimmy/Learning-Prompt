@@ -191,6 +191,6 @@ AI 的回答是「学生的解答正确」。但其实学生的答案是错误�
 错误
 ```
 
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
 下一章我们会结合「少样本思维链」来详细讲讲逻辑链的限制。
