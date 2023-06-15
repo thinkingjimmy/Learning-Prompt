@@ -95,7 +95,7 @@ GPTs在推理方面的一个重要局限是它们无法进行因果推理，这�
 5. "GPT-4：从预训练到后期训练的对齐过程"
 ```
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 ## **四、明确指定完成任务所需的步骤**
 
