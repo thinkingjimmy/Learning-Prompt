@@ -40,6 +40,6 @@ OpenAI是一个在美国的机器人大脑研究地方，有两个部分组成�
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 关于这个技巧的应用，以及如何更好地使用 AI 提升写作能力，建议各位阅读 Nat Eliason 的 [Using ChatGPT as a Writing Coach](https://blog.nateliason.com/p/chatgpt-writing-coach)，他使用 ChatGPT 辅助其写作，就用到了上述的技巧。

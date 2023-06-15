@@ -169,4 +169,4 @@ AI 的回答是「学生的解答正确」。但其实学生的答案是错误�
 错误
 ```
 
-<figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
