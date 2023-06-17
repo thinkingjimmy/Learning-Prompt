@@ -1,4 +1,4 @@
-# 指令的内容清晰明确
+# 🎯 指令的内容清晰明确
 
 GPT无法读懂你的心思，如果输出答案太啰嗦，请要求它简洁回复；如果输出太简单，请要求以专业水平写作；如果你不喜欢格式，请展示你想看到的格式。GPT越少猜测你的意图，你获得的结果就更可能符合预期。
 
@@ -67,7 +67,7 @@ GPTs在推理方面的一个重要局限是它们无法进行因果推理，这�
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
 
 > 若你不清楚XML语法，可查阅 [W3cschool-XML语法](https://www.w3cschool.cn/xml/xml-syntax.html)
 
@@ -96,7 +96,7 @@ GPTs在推理方面的一个重要局限是它们无法进行因果推理，这�
 5. GPT-4：实现人类水平表现的智能模型
 ```
 
-<figure><img src="../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
 
 ## **四、明确指定完成任务所需的步骤**
 
@@ -133,7 +133,7 @@ GPTs在推理方面的一个重要局限是它们无法进行因果推理，这�
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 ## **五、提供示例**
 
@@ -162,7 +162,7 @@ GPTs在推理方面的一个重要局限是它们无法进行因果推理，这�
 答：浩渺的海洋源于细小的水滴；无尽的波涛起于轻柔的风；丰富的生命汇聚于深邃的蓝。
 ```
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
 ## **六、指定所需输出的长度**
 
@@ -198,4 +198,4 @@ GPTs在推理方面的一个重要局限是它们无法进行因果推理，这�
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>

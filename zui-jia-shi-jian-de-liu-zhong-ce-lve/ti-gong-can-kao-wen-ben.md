@@ -1,4 +1,4 @@
-# 提供参考文本
+# 📚 提供参考文本
 
 GPT在回答一些深奥主题或需要引用网址的问题时，可能会胡说八道编造虚假答案。这时你可以为 GPT 提供参考文本可以帮助它们在回答问题时减少捏造内容。
 
@@ -43,7 +43,7 @@ Azure OpenAI 服务通过 OpenAI GPT-3.5、GPT-4 和 DALL-E 模型为企业客�
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 ## **指导模型使用参考文本中的引文来回答**
 
@@ -80,5 +80,5 @@ Azure OpenAI 服务通过 OpenAI GPT-3.5、GPT-4 和 DALL-E 模型为企业客�
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 

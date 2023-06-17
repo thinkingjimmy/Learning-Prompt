@@ -1,4 +1,4 @@
-# 将复杂任务拆分为子任务
+# 🧩 将复杂任务拆分为子任务
 
 正如在软件工程中将一个复杂系统分解为一组模块化组件是一种很好的做法一样，这对于提交给 GPT 的任务也同样适用。复杂任务往往比简单任务具有更高的错误率。此外，复杂任务通常可以被重新定义为由一系列简单任务组成的工作流程，其中前面任务的输出用于构建后续任务的输入。
 
@@ -106,11 +106,11 @@
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
 
 请注意，这个模型就像一个游戏，它可以发出特殊的文字来告诉我们游戏进行到哪一步了。这样我们就可以把这个系统想象成一个游戏机，游戏机里的每一步都决定了我们应该做什么。通过记住每一步，了解在这一步我们可以做什么，以及下一步我们可以做什么，我们就可以更好地保护用户的体验，这在一些不太有规则的方法中是很难做到的。
 
-{% hint style="info" %}
+{% hint style="warning" %}
 如果我们不是开发者的话，下面的两个技巧我们都用不到。我们这里也只是简单介绍，如需深入学习可前往[OpenAI 官方文档](https://platform.openai.com/docs/guides/gpt-best-practices/tactic-summarize-long-documents-piecewise-and-construct-a-full-summary-recursively)进行查看。
 {% endhint %}
 

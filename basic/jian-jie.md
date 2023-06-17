@@ -15,7 +15,7 @@ sidebar_position: 1
 比如，我们在 小语 GPT 里输入“中国的首都是什么？”，这个问题就是 「提示语」。\
 
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 而「提示语工程」则是：
 
@@ -37,11 +37,11 @@ sidebar_position: 1
 
 小语 GPT 会返回一个错误的答案 14：
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 但如果我们对提示语进行一些修改，答案则会是正确的。
 
-<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
 另外，目前的 AI 产品还比较早期，因为各种原因，产品设置了很多限制，如果你想要绕过一些限制，或者更好地发挥 AI 的能力，也需要用到提示语工程师技术。这个我们在后续的章节会讲到。
 
