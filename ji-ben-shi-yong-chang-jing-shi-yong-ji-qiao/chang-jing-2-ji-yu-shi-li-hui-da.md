@@ -43,7 +43,7 @@
 风驰电掣、神奇马侠、奔雷神骏
 ```
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 以下是一些场景案例，我们整理了两个"不太有效的" 和 "更好的" 的提示语，你可以自己尝试下这些案例：
 

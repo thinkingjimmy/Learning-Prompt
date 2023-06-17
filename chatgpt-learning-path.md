@@ -8,7 +8,7 @@ sidebar_position: 0
 
 2023年三月份，英伟达CEO黄仁勋和OpenAI首席科学家伊利亚·苏茨科弗（Ilya Sutskever）有一个对谈。在这个对谈中，苏茨科弗进一步解释了GPT是怎么回事儿。
 
-<figure><img src=".gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 苏茨科弗说，GPT的确只是一个神经网络语言模型，它被训练出来只是要预测下一个单词是什么——但是，如果你训练得足够好，它就能很好地掌握事物之间的各种统计相关性。而这就意味着神经网络真正学习的，其实是「世界的一个投影」——
 

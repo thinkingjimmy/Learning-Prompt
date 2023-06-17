@@ -133,4 +133,4 @@ AI 的回答是「学生的解答正确」。但其实学生的答案是错误�
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
