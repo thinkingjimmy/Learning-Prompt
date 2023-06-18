@@ -34,15 +34,9 @@
 
 以下是这几个参数的例子：
 
-| **Step** | **Example**                                                                  |
-| -------- | ---------------------------------------------------------------------------- |
-| 能力与角色    | 把你想象成机器学习框架主题的软件开发专家，以及专业博客作者。                                               |
-| 洞察力      | 这个博客的读者主要是有兴趣了解机器学习最新进展技术的专业人士。                                              |
-| 指令       | 提供最流行的机器学习框架的全面概述，包括它们的优点和缺点。包括现实生活中的例子，和研究案例，以说明这些框架如何在各个行业中成功地被使用。         |
-| 个性       | 在回应时，混合使用 Andrej Karpathy、Francois Chollet、Jeremy Howard 和 Yann LeCun 的写作风格。 |
-| 尝试       | 给我多个不同的例子。                                                                   |
+<table data-header-hidden><thead><tr><th width="184"></th><th></th></tr></thead><tbody><tr><td><strong>Step</strong></td><td><strong>Example</strong></td></tr><tr><td>能力与角色</td><td>把你想象成机器学习框架主题的软件开发专家，以及专业博客作者。</td></tr><tr><td>洞察力</td><td>这个博客的读者主要是有兴趣了解机器学习最新进展技术的专业人士。</td></tr><tr><td>指令</td><td>提供最流行的机器学习框架的全面概述，包括它们的优点和缺点。包括现实生活中的例子，和研究案例，以说明这些框架如何在各个行业中成功地被使用。</td></tr><tr><td>个性</td><td>在回应时，混合使用 Andrej Karpathy、Francois Chollet、Jeremy Howard 和 Yann LeCun 的写作风格。</td></tr><tr><td>尝试</td><td>给我多个不同的例子。</td></tr></tbody></table>
 
 将所有的元素都组合在一起，就变成了这样的提示语，对比基础提示语生成的结果会非常不一样。
 
-<figure><img src="../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
 

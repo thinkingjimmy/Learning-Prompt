@@ -43,7 +43,7 @@ Azure OpenAI 服务通过 OpenAI GPT-3.5、GPT-4 和 DALL-E 模型为企业客�
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 ## **指导模型使用参考文本中的引文来回答**
 

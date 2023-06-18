@@ -27,7 +27,7 @@ Brown 输入的内容是这样的（whatpu 和 farduddle 其实根本不存在�
 孩子们在草地上快乐地farduddle，充满了活力。
 ```
 
-<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
 不过这并不代表，少样本提示就没有缺陷，我们试试下面这个例子：
 
@@ -74,7 +74,7 @@ Prompt：
 
 下面是论文里的案例，使用方法很简单，在技巧2 的基础上，再将逻辑过程告知给模型即可。从下面这个案例里，你可以看到加入解释后，输出的结果就正确了。
 
-![FewShotChainOfThought001.png](../docs/chatGPT/tutorial-extras/assets/FewShotChainOfThought001.png)
+<figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption><p>少样本思维链提示语</p></figcaption></figure>
 
 那本章开头提的例子就应该是这样的（注：本例子同样来自 Wei 团队论文）：
 
@@ -117,7 +117,7 @@ Prompt：
 消极
 ```
 
-<figure><img src="../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
 
 在上述的案例里，每一行，我们都写了一句话和一个情感词，并用 // 分开，但我给这些句子都标记了错误的答案，比如第一句其实应该是积极才对。但：
 

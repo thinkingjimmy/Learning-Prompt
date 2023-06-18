@@ -4,11 +4,15 @@ sidebar_position: 0
 
 # 🗺️ 提示语学习导航
 
+{% hint style="info" %}
+学院中的所以教程和示例都是基于目前最先进的大模型「小语 4.0（即 GPT-4）」，旨在帮助大家更好地利用GPT获取最优质的答案。这些介绍的策略和技巧有时可以组合使用以达到更好的效果。请多多进行实验，并找出最适合你的方法。
+{% endhint %}
+
 ## 使用中文学习提示语
 
 2023年三月份，英伟达CEO黄仁勋和OpenAI首席科学家伊利亚·苏茨科弗（Ilya Sutskever）有一个对谈。在这个对谈中，苏茨科弗进一步解释了GPT是怎么回事儿。
 
-<figure><img src=".gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
 苏茨科弗说，GPT的确只是一个神经网络语言模型，它被训练出来只是要预测下一个单词是什么——但是，如果你训练得足够好，它就能很好地掌握事物之间的各种统计相关性。而这就意味着神经网络真正学习的，其实是「世界的一个投影」——
 

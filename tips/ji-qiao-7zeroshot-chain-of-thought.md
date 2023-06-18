@@ -8,7 +8,7 @@ sidebar_position: 7
 
 这个技巧来自于 Kojima 等人 2022 年的论文 [Large Language Models are Zero-Shot Reasoners](https://arxiv.org/abs/2205.11916)。在论文里提到，当我们向模型提一个逻辑推理问题时，模型返回了一个错误的答案，但如果我们在问题最后加入 `让我们一步一步地思考` 这句话之后，模型就生成了正确的答案：
 
-![ZeroShotChainOfThought001.png](../docs/chatGPT/tutorial-tips/assets/ZeroShotChainOfThought001.png)
+<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption><p>零样本提示（思维链）</p></figcaption></figure>
 
 论文里有讲到原因，感兴趣的朋友可以去看看，这里简单解释下为什么：
 
@@ -19,7 +19,7 @@ sidebar_position: 7
 
 按照论文里的解释，零样本思维链涉及两个补全结果，左侧气泡表示基于提示输出的第一次的结果，右侧气泡表示其收到了第一次结果后，将最开始的提示一起拿去运算，最后得出了正确的答案：
 
-![ZeroShotChainOfThought002.png](../docs/chatGPT/tutorial-tips/assets/ZeroShotChainOfThought002.png)
+<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption><p>零样本思维链推理过程</p></figcaption></figure>
 
 这个技巧，除了用于解决复杂问题外，还适合生成一些连贯主题的内容，比如写长篇文章、电影剧本等。
 
@@ -133,4 +133,4 @@ AI 的回答是「学生的解答正确」。但其实学生的答案是错误�
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
