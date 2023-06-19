@@ -43,7 +43,7 @@ sidebar_position: 1
 
 小语 4.0 回复：
 
-<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
 我们可以看出 AI 给的回复已经非常清晰明了，概括了这本书的核心观点和主要财务观念。但如果我们对提示语进行一些修改，给出7 个具体的问题让他回答，修改后的提示语如下：
 

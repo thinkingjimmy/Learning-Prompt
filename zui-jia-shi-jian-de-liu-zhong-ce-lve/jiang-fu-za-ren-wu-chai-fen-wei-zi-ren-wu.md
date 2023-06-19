@@ -49,7 +49,7 @@
 }
 ```
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 根据客户咨询的分类，我们可以为GPT模型提供一套更具体的指示来处理后续步骤。例如，假设客户需要帮助进行"故障排查"。
 

@@ -24,7 +24,7 @@ OpenAI是一个在美国的机器人大脑研究地方，有两个部分组成�
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 另外除了增加角色外，还能让 AI 模拟某个人，比如让 AI 以大卫·福斯特·华莱士的风格改写上述那段话：
 
