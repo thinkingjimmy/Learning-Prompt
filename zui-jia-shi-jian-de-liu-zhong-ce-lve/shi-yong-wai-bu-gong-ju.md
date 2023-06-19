@@ -36,11 +36,11 @@ print(real_roots)
 ````
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 遗憾的是，这种方式GPT 目前只能给到我们Python代码，还没有办法将代码运行直接给到我们结果（有些鸡肋），我们接下来可以选择找一个[在线代码运行](https://ideone.com/)工具（📢注意将语言切换为 "Python3"），复制这段代码运行得到答案。
 
-<figure><img src="../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
 
 ### 发散一下
 
@@ -96,7 +96,7 @@ message.write(to="爱丽丝", message="嘿，我们10点在咖啡店见面。")
 ```
 ````
 
-<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
 ## **使用基于嵌入的搜索实现高效知识检索**
 

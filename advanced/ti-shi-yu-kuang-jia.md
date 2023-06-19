@@ -38,5 +38,5 @@
 
 将所有的元素都组合在一起，就变成了这样的提示语，对比基础提示语生成的结果会非常不一样。
 
-<figure><img src="../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
 

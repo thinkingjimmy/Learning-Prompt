@@ -8,7 +8,7 @@ sidebar_position: 7
 
 这个技巧来自于 Kojima 等人 2022 年的论文 [Large Language Models are Zero-Shot Reasoners](https://arxiv.org/abs/2205.11916)。在论文里提到，当我们向模型提一个逻辑推理问题时，模型返回了一个错误的答案，但如果我们在问题最后加入 `让我们一步一步地思考` 这句话之后，模型就生成了正确的答案：
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption><p>零样本提示（思维链）</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption><p>零样本思维链示例图</p></figcaption></figure>
 
 论文里有讲到原因，感兴趣的朋友可以去看看，这里简单解释下为什么：
 
@@ -133,4 +133,4 @@ AI 的回答是「学生的解答正确」。但其实学生的答案是错误�
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>

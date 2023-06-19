@@ -10,7 +10,7 @@ sidebar_position: 8
 
 下面是论文里的案例，使用方法很简单，在技巧 2 的基础上，再将逻辑过程告知给模型即可。从下面这个案例里，你可以看到加入解释后，输出的结果就正确了。
 
-<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption><p>少样本思维链提示语</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/少样本思维链提示语.png" alt=""><figcaption><p>少样本思维链提示语 VS 标准提示语对比图</p></figcaption></figure>
 
 那本章开头提的例子就应该是这样的（注：本例子同样来自 Wei 团队论文）：
 
