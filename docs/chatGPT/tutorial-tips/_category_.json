@@ -1,9 +1,0 @@
-{
-    "label": "🗒️ 技巧篇",
-    "position": 4,
-    "link": {
-      "type": "generated-index",
-      "description": "这里汇总了所有 prompt 技巧，方便各位查阅。如果你已经看过基础篇和高级篇内容，就仅需要从技巧 9 开始看即可。"
-      
-    }
-}
