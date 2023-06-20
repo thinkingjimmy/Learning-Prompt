@@ -75,7 +75,7 @@
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt="" /><figcaption></figcaption></figure>
 
 这是一个只满足一个条件的示例输入，提示语：
 
@@ -122,7 +122,7 @@
 {"计数": 1}
 ```
 
-<figure><img src="../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (53).png" alt="" /><figcaption></figcaption></figure>
 
 这是一个没有满足条件的示例输入，提示语：
 
@@ -198,7 +198,7 @@
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (63).png" alt="" /><figcaption></figcaption></figure>
 
 这是一个带有答案的示例输入，直接与专家答案相矛盾，提示语：
 
@@ -235,7 +235,7 @@
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (30).png" alt="" /><figcaption></figcaption></figure>
 
 这是一个示例输入，其中的答案是正确的，但提供的详细信息稍微超出了必要范围，提示语：
 
@@ -272,4 +272,4 @@
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22).png" alt="" /><figcaption></figcaption></figure>

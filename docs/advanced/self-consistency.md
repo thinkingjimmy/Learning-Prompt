@@ -8,7 +8,7 @@ sidebar_position: 4
 
 按照 Xuezhi Wang 等人在 [2022 年发表的论文](https://arxiv.org/pdf/2203.11171.pdf) 表明。当我们只用一个逻辑链进行优化时，模型依然有可能会算错，所以 XueZhi Wang 等人提出了一种新的方法，让模型进行多次运算，然后选取最多的答案作为最终结果：
 
-<figure><img src="../.gitbook/assets/自洽性示例图.png" alt=""><figcaption><p>自洽性推理路径示例图</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/自洽性示例图.png" alt="" /><figcaption><p>自洽性推理路径示例图</p></figcaption></figure>
 
 就我们目前使用下来，OpenAI 的 GPT 模型的自洽性非常高，尤其是 GPT-4，暂时没有遇到过出现多种答案的情况。
 

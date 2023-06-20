@@ -5,6 +5,7 @@ const lightCodeTheme = require('prism-react-renderer/themes/github')
 const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 const tailwindPlugin = require('./plugins/tailwind-plugin.cjs')
+const gitBookPlugin = require('./plugins/gitbook.cjs')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -37,7 +38,6 @@ const config = {
         docs: {
           showLastUpdateTime: true,
           sidebarPath: require.resolve('./sidebars.js'),
-          remarkPlugins: [require('./plugins/gitbook.cjs')],
         },
         blog: {
           showReadingTime: true,
@@ -54,7 +54,7 @@ const config = {
     ],
   ],
 
-  plugins: [tailwindPlugin],
+  plugins: [tailwindPlugin, gitBookPlugin],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */

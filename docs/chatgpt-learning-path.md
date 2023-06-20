@@ -8,7 +8,7 @@ sidebar_position: 0
 
 2023年三月份，英伟达CEO黄仁勋和OpenAI首席科学家伊利亚·苏茨科弗（Ilya Sutskever）有一个对谈。在这个对谈中，苏茨科弗进一步解释了GPT是怎么回事儿。
 
-<figure><img src=".gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (40).png" alt="" /><figcaption></figcaption></figure>
 
 苏茨科弗说，GPT的确只是一个神经网络语言模型，它被训练出来只是要预测下一个单词是什么——但是，如果你训练得足够好，它就能很好地掌握事物之间的各种统计相关性。而这就意味着神经网络真正学习的，其实是「世界的一个投影」——
 
@@ -30,13 +30,13 @@ GPT是一个语言模型，可以用来回答各种问题。无论用中文还�
 
 ## 如果你想系统学习
 
-如果你已经了解基本的用法，之前也用过类似的 chatgpt 产品，对提示语一知半解，想好好系统的学习提示语，但一直没找到合适的中文教程。那不妨按照 [基础篇](basic/) --> [场景篇](ji-ben-shi-yong-chang-jing-shi-yong-ji-qiao/) --> [高级篇](advanced/) --> [最佳实践的六种策略](zui-jia-shi-jian-de-liu-zhong-ce-lve/) 的学习路径稳扎稳打的学习。
+如果你已经了解基本的用法，之前也用过类似的 chatgpt 产品，对提示语一知半解，想好好系统的学习提示语，但一直没找到合适的中文教程。那不妨按照 [基础篇](basic/) --> [场景篇](scenario/) --> [高级篇](advanced/) --> [最佳实践的六种策略](best-practice/) 的学习路径稳扎稳打的学习。
 
-需要特别说明的是，如果对提示语一知半解，🚫不建议一上来就看 [最佳实践的六种策略](zui-jia-shi-jian-de-liu-zhong-ce-lve/) 这部分，否则容易被劝退！
+需要特别说明的是，如果对提示语一知半解，🚫不建议一上来就看 [最佳实践的六种策略](best-practice/) 这部分，否则容易被劝退！
 
 ## 如果你是个高手
 
-高手请忽略其它篇章，直接从[最佳实践的六种策略](zui-jia-shi-jian-de-liu-zhong-ce-lve/)，我们在OpenAI 官方[最佳实践](https://platform.openai.com/docs/guides/gpt-best-practices)的基础上加入了更多的示例，希望能对你有帮助。
+高手请忽略其它篇章，直接从[最佳实践的六种策略](best-practice/)，我们在OpenAI 官方[最佳实践](https://platform.openai.com/docs/guides/gpt-best-practices)的基础上加入了更多的示例，希望能对你有帮助。
 
 ## 如果你只是想快速学会使用
 
@@ -52,4 +52,4 @@ GPT是一个语言模型，可以用来回答各种问题。无论用中文还�
 
 
 
-需要特别说明的是，[基础篇](basic/)、[场景篇](ji-ben-shi-yong-chang-jing-shi-yong-ji-qiao/)、[高级篇](advanced/)和[技巧篇](tips/)基于[Learning Prompt](https://learningprompt.wiki/)进行的二次修改。
+需要特别说明的是，[基础篇](basic/)、[场景篇](scenario/)、[高级篇](advanced/)和[技巧篇](tips/)基于[Learning Prompt](https://learningprompt.wiki/)进行的二次修改。
