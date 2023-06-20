@@ -1,7 +1,7 @@
 # Table of contents
 
-* [🤖 小语 GPT 介绍](docs/readme.md)
-* [🗺️ 提示语学习导航](docs/chatgpt-learning-path.md)
+* [🤖 小语 GPT 介绍](docs/xiaoyu.md)
+* [🗺️ 提示语学习导航](docs/README.md)
 * [基础篇](docs/basic/README.md)
   * [📝 简介](docs/basic/jian-jie.md)
   * [🔰 基础用法](docs/basic/ji-chu-yong-fa.md)
