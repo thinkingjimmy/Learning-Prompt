@@ -31,7 +31,7 @@ sidebar_position: 8
 答：
 ```
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="" /><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image(1).png" alt="" /><figcaption></figcaption></figure>
 
 聊完技巧，我们再结合前面的零样本思维链，来聊聊思维链的关键知识。根据 [Sewon Min](https://arxiv.org/search/cs?searchtype=author\&query=Min%2C+S) 等人在 [2022 年的研究](https://arxiv.org/abs/2202.12837) 表明，思维链有以下特点：
 
@@ -53,7 +53,7 @@ sidebar_position: 8
 消极
 ```
 
-<figure><img src="../.gitbook/assets/image (11).png" alt="" /><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image(11).png" alt="" /><figcaption></figcaption></figure>
 
 在上述的案例里，每一行，我们都写了一句话和一个情感词，并用 // 分开，但我给这些句子都标记了错误的答案，比如第一句其实应该是积极才对。但：
 

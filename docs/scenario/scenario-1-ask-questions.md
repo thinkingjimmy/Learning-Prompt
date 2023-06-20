@@ -2,7 +2,7 @@
 
 这个场景应该是使用 AI 产品最常见的方法。以 小语 GPT 为例，一般就是你提一个问题， 小语 GPT 会给你答案，比如像这样：
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image(17).png" alt=""><figcaption></figcaption></figure>
 
 在这个场景下，提示语只要满足前面提到的基本原则，基本上就没有什么问题。但需要注意，目前的 AI 产品，也不是无所不能，有些问题你再怎么优化提示语它也没法回答你。以小语 GPT 为例：
 

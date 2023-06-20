@@ -14,8 +14,8 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   chatGPT: [
-    'readme',
-    'chatgpt-learning-path',
+    'xiaoyu',
+    'README',
     {
       type: 'category',
       label: '基础篇',

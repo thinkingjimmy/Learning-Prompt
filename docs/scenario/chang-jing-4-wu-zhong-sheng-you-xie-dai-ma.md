@@ -44,7 +44,7 @@ WHERE d.DepartmentName = 'Computer Science Department';
 ````
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image(44).png" alt=""><figcaption></figcaption></figure>
 
 ## **技巧 3：使用引导词，引导模型输出特定格式内容**
 

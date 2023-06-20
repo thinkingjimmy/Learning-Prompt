@@ -40,7 +40,7 @@ sidebar_position: 6
 - 社区和城市被毁
 ```
 
-<figure><img src="../.gitbook/assets/image (76).png" alt="" /><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image(76).png" alt="" /><figcaption></figcaption></figure>
 
 关于这个场景和技巧想再解释一下为什么潜力很大。根据使用各种总结或者信息提取的产品发现，AI 并不知道什么是重点，所以在总结的过程中，会丢失很多内容。如何引导 AI 进行总结，就变得非常重要，且具有一定的可玩性。针对此场景的技巧：
 

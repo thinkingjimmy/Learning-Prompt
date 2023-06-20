@@ -82,7 +82,7 @@
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (62).png" alt="" /><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image(62).png" alt="" /><figcaption></figcaption></figure>
 
 ## **使用内心独白来隐藏模型的推理过程**
 
@@ -138,7 +138,7 @@
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (57).png" alt="" /><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image(57).png" alt="" /><figcaption></figcaption></figure>
 
 或者，我们可以通过一系列查询来实现这个目标，其中除了最后一个查询，其他所有的查询结果都对最终用户保持不可见。
 

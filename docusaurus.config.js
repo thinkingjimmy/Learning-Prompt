@@ -73,7 +73,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'readme',
+            docId: 'README',
             position: 'left',
             label: '💬 提示语',
           },
