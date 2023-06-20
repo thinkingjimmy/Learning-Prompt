@@ -28,7 +28,7 @@ const config = {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans'],
   },
-  staticDirectories: ['.gitbook/assets', 'static'],
+  staticDirectories: ['.gitbook/assets', 'docs/.gitbook/assets','static'],
 
   presets: [
     [
