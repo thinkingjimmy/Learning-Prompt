@@ -1,11 +1,13 @@
 ---
 sidebar_position: 1
 ---
+
+# 简介
+
 <head>
   <script defer="defer" src="https://embed.trydyno.com/embedder.js"></script>
   <link href="https://embed.trydyno.com/embedder.css" rel="stylesheet" />
 </head>
-
 
 ## 什么是 Prompt Engineering？
 
@@ -22,7 +24,7 @@ sidebar_position: 1
 </div>
 
 <br/>
-而 Prompt Engineering （中文意思为提示工程，后缩写为 PE）则是：
+而 Prompt Engineering（中文意思为提示工程，后缩写为 PE）则是：
 
 > Prompt Engineering 是一种人工智能（AI）技术，它通过设计和改进 AI 的 prompt 来提高 AI 的表现。Prompt Engineering 的目标是创建高度有效和可控的 AI 系统，使其能够准确、可靠地执行特定任务。
 
@@ -79,7 +81,7 @@ OpenAI 的 CEO Sam Altman 在今年 2 月底提到给 ChatBot 写 prompt 是个�
 
 ![image.png](https://media.heptabase.com/v1/images/b92049c5-ff11-40d4-b38d-e7b45d802985/479cf9aa-2ef3-42d4-8568-f9c323e8b05f/image.png)
 
-但如果你看过 Sam Altman [去年的访谈](https://greylock.com/greymatter/sam-altman-ai-for-the-next-era/)，他在去年 9 月的时候就提过，5年内我们很可能就不再需要 PE。
+但如果你看过 Sam Altman [去年的访谈](https://greylock.com/greymatter/sam-altman-ai-for-the-next-era/)，他在去年 9 月的时候就提过，5 年内我们很可能就不再需要 PE。
 
 ![image.png](https://media.heptabase.com/v1/images/b92049c5-ff11-40d4-b38d-e7b45d802985/14c13281-01c5-47b8-9c38-333d9b57783f/image.png)
 
@@ -89,14 +91,10 @@ OpenAI 的 CEO Sam Altman 在今年 2 月底提到给 ChatBot 写 prompt 是个�
 
 ## One More Thing
 
-前特斯拉 AI 负责人 Andrej Karpathy（对了，他之前就在 OpenAI，最近二进宫回OpenAI 了） 今年 1 月底，说了这样的一句话：
+前特斯拉 AI 负责人 Andrej Karpathy（对了，他之前就在 OpenAI，最近二进宫回 OpenAI 了）今年 1 月底，说了这样的一句话：
 
 ![image.png](https://media.heptabase.com/v1/images/b92049c5-ff11-40d4-b38d-e7b45d802985/d01305ed-7008-4576-95ae-f9751f50a020/image.png)
 
 所以本教程所有案例以及 prompt 都会以英文撰写。不管 PE 最后会怎样，看完后，起码你的英语水平会提高。
 
 所以求求各位不要骂我中英文混杂了。哈哈哈 😁
-
-
-
-

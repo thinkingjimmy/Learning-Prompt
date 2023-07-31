@@ -2,8 +2,10 @@
 sidebar_position: 2
 ---
 
+# 基础用法
+
 :::info 注意
-本章节会简单介绍下 prompt ，如果你已经懂得使用 ChatGPT 这类产品的用法，可跳过这一章。
+本章节会简单介绍下 prompt，如果你已经懂得使用 ChatGPT 这类产品的用法，可跳过这一章。
 :::
 
 如果你没怎么使用过类似 ChatGPT 这类 Chatbot 产品，我简单说下它的基本用法：
@@ -13,5 +15,3 @@ sidebar_position: 2
 ![basicprompt.png](./assets/basicprompt.png)
 
 - 另外，还有一个特别留意的，ChatGPT 跟你之前用的一些 AI 产品不同，它还支持多轮对话，比如当你问 `What is the capital of China?` (中国的首都是什么？)，它回答 Beijing，你可以接着问 `How many people are there？` ，你不需要在问题里重复 Beijing 这个词。ChatGPT 知道 there 指的就是 Beijing。
-
-

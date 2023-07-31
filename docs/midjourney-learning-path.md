@@ -10,7 +10,7 @@ sidebar_position: 0
 
 坦率说来，线性的教程，并不是学习 Midjourney 最好的方法，可能未来有了 AI 技术后，我能制作一个更牛逼的教程。
 
-为了能让不同水平的朋友快速了解和学会 Midjourney ，我特意制作了本学习导航，希望它能帮助你更好地学习。
+为了能让不同水平的朋友快速了解和学会 Midjourney，我特意制作了本学习导航，希望它能帮助你更好地学习。
 
 ## 如果你是想教小朋友如何使用
 
@@ -22,7 +22,7 @@ sidebar_position: 0
 - Step Two：教会 TA 如何查英文单词。
 - Step Three：自由探索。
 
-我认为，做到这一步，就 OK了，没有必要教小朋友所谓的模板，让小朋友发挥想象力。接着我又在想，如果我小的时候，有这样的工具，我希望老师如何教我，以及教我什么。
+我认为，做到这一步，就 OK 了，没有必要教小朋友所谓的模板，让小朋友发挥想象力。接着我又在想，如果我小的时候，有这样的工具，我希望老师如何教我，以及教我什么。
 
 我可能会希望：
 
@@ -62,24 +62,23 @@ sidebar_position: 0
 我将各章节里的技巧归纳了下：
 
 - 学习 & 使用方法：
-   - [技巧一：临摹](midjourney/mj-tutorial-tips/tips-1-imitation)
-   - [技巧二：多实验](midjourney/mj-tutorial-tips/tips-2-experiment)
-   - [技巧十：控制变量法渐进优化](midjourney/mj-tutorial-tips/tips-10-control-variables-method)
+  - [技巧一：临摹](midjourney/mj-tutorial-tips/tips-1-imitation)
+  - [技巧二：多实验](midjourney/mj-tutorial-tips/tips-2-experiment)
+  - [技巧十：控制变量法渐进优化](midjourney/mj-tutorial-tips/tips-10-control-variables-method)
 - 高级功能使用方法：
-   - [技巧三：善用 Image2Image 功能](midjourney/mj-tutorial-tips/tips-3-img2img)
-   - [技巧六：善用 no 参数，去掉不想要的元素](midjourney/mj-tutorial-tips/tips-6-no-parameter)
-   - [技巧七：多参数同时使用](midjourney/mj-tutorial-tips/tips-7-multi-parameters)
-   - [技巧八：使用 Seed 参数对图进行二次修改](midjourney/mj-tutorial-tips/tips-8-seed-parameter)
-   - [技巧九：神秘的 belend 功能](midjourney/mj-tutorial-tips/tips-9-blend)
-   - [技巧十二：增加权重](midjourney/mj-tutorial-tips/tips-12-increase-weight)
-   - [技巧十七：看到别人的图，想知道它的 prompt 是啥](midjourney/mj-tutorial-tips/tips-17-describe)
+  - [技巧三：善用 Image2Image 功能](midjourney/mj-tutorial-tips/tips-3-img2img)
+  - [技巧六：善用 no 参数，去掉不想要的元素](midjourney/mj-tutorial-tips/tips-6-no-parameter)
+  - [技巧七：多参数同时使用](midjourney/mj-tutorial-tips/tips-7-multi-parameters)
+  - [技巧八：使用 Seed 参数对图进行二次修改](midjourney/mj-tutorial-tips/tips-8-seed-parameter)
+  - [技巧九：神秘的 belend 功能](midjourney/mj-tutorial-tips/tips-9-blend)
+  - [技巧十二：增加权重](midjourney/mj-tutorial-tips/tips-12-increase-weight)
+  - [技巧十七：看到别人的图，想知道它的 prompt 是啥](midjourney/mj-tutorial-tips/tips-17-describe)
 - 风格词技巧：
-   - [技巧四：增加风格——艺术运动](midjourney/mj-tutorial-tips/tips-4-art-movement)
-   - [技巧五：增加风格——艺术家](midjourney/mj-tutorial-tips/tips-5-artist)
-   - [技巧十一：增加风格——国家](midjourney/mj-tutorial-tips/tips-11-country)
-   - [技巧十四：增加风格——年份](midjourney/mj-tutorial-tips/tips-14-year)
+  - [技巧四：增加风格——艺术运动](midjourney/mj-tutorial-tips/tips-4-art-movement)
+  - [技巧五：增加风格——艺术家](midjourney/mj-tutorial-tips/tips-5-artist)
+  - [技巧十一：增加风格——国家](midjourney/mj-tutorial-tips/tips-11-country)
+  - [技巧十四：增加风格——年份](midjourney/mj-tutorial-tips/tips-14-year)
 - 其他技巧：
-   - [技巧十三：善用灯光](midjourney/mj-tutorial-tips/tips-13-lighting)
-   - [技巧十五：如何让 Midjourney 生成的人更具有多样性？](midjourney/mj-tutorial-tips/tips-15-human-diversity)
-   - [技巧十六：改变相机与镜头](midjourney/mj-tutorial-tips/tips-16-camera-lens)
-
+  - [技巧十三：善用灯光](midjourney/mj-tutorial-tips/tips-13-lighting)
+  - [技巧十五：如何让 Midjourney 生成的人更具有多样性？](midjourney/mj-tutorial-tips/tips-15-human-diversity)
+  - [技巧十六：改变相机与镜头](midjourney/mj-tutorial-tips/tips-16-camera-lens)
