@@ -1,0 +1,40 @@
+.container {
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: var(--ifm-global-radius);
+  color: #fff;
+  display: block;
+  opacity: 0.95;
+  padding: 1rem;
+  transition: opacity var(--ifm-transition-fast)
+    var(--ifm-transition-timing-default);
+}
+
+.sidebarad {
+  color: #fff;
+}
+
+.sidebarad:hover {
+  color: #fff;
+}
+
+.backgroundPurple {
+  background-color: rgb(79, 70, 229);
+}
+
+.container:hover {
+  color: #fff;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.tagline {
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+.title {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 0.1rem;
+}

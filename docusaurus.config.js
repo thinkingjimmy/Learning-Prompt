@@ -62,6 +62,13 @@ const config = {
           hideable: true,
         },
       },
+      announcementBar: {
+        content:
+          '⭐ 如果你有任何的问题，欢迎加入我们的 <a target="_blank" href="https://discord.gg/B7Z7wjuUPg">Discord Channel</a> 一起学习讨论。⭐',
+        backgroundColor: '#fafbfc',
+        textColor: '#091E42',
+        isCloseable: false,
+      },
       navbar: {
         title: 'Learning Prompt',
         logo: {
