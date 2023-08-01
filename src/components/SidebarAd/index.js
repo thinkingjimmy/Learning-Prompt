@@ -18,7 +18,7 @@ function PoleStarChat({ position }) {
         >
           <u>PoleStar Chat</u>
         </a>
-        。我们除了优化了一些网络问题外，还支持文生图功能，欢迎试用。
+        。我们除了解决了一些网络问题外，还支持文生图功能，欢迎试用。
       </p>
     </a>
   )

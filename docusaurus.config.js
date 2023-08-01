@@ -52,7 +52,7 @@ const config = {
     ],
   ],
 
-  plugins: [tailwindPlugin],
+  plugins: [tailwindPlugin, 'docusaurus-plugin-sass'],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -100,6 +100,12 @@ const config = {
             position: 'left',
             docId: 'midjourney-learning-path',
             label: '🖼️ Midjourney 教程',
+          },
+          {
+            type: 'doc',
+            position: 'left',
+            docId: 'best-practice',
+            label: '🏗️ AI 最佳实践',
           },
           { to: '/blog', label: '📰 更新日志', position: 'left' },
           {
