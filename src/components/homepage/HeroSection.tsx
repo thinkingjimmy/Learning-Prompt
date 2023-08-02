@@ -1,15 +1,18 @@
-import React from 'react';
-import Link from '@docusaurus/Link';
-import { useColorMode } from '@docusaurus/theme-common';
-import Head from '@docusaurus/Head';
+import React from 'react'
+import Link from '@docusaurus/Link'
+import { useColorMode } from '@docusaurus/theme-common'
+import Head from '@docusaurus/Head'
 
 export default function HeroSection() {
-  const { colorMode } = useColorMode();
+  const { colorMode, setColorMode } = useColorMode()
 
   return (
     <section className="noise-bg no-underline-links px-4 pt-16 lg:py-0">
       <Head>
-        <link rel="prefetch" href="/static/landing-page/hello-world-light.png" />
+        <link
+          rel="prefetch"
+          href="/static/landing-page/hello-world-light.png"
+        />
         <link rel="prefetch" href="/static/landing-page/hello-world-dark.png" />
       </Head>
       <div className="mx-auto flex max-w-7xl flex-col items-center lg:h-[540px] lg:flex-row">
@@ -18,7 +21,8 @@ export default function HeroSection() {
             Learning Prompt
           </h1>
           <p className="text-sm text-text-400 lg:max-w-lg lg:text-base">
-            免费的 Prompt Engineering 教程<br/> 现已包含 ChatGPT 和 Midjourney 教程
+            免费的 Prompt Engineering 教程
+            <br /> 现已包含 ChatGPT 和 Midjourney 教程
           </p>
           <div className="mt-8 flex flex-col gap-4 lg:flex-row">
             <Link
@@ -38,5 +42,5 @@ export default function HeroSection() {
         </div>
       </div>
     </section>
-  );
+  )
 }
