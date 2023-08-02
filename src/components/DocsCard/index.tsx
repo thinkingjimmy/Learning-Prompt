@@ -38,12 +38,12 @@ function DocsCard(props: Props): JSX.Element {
                 className="Card-icon Card-icon-default"
               />
             )}
-            {hoverIcon && (
+            {/* {hoverIcon && (
               <img
                 src={useBaseUrl(hoverIcon)}
                 className="Card-icon Card-icon-hover"
               />
-            )}
+            )} */}
           </div>
         )}
         {props.ionicon && (

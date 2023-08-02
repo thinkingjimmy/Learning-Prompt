@@ -84,7 +84,7 @@ const config = {
 
           {
             type: 'doc',
-            docId: '👋 Welcome',
+            docId: 'welcome',
             position: 'left',
             label: '👋 欢迎',
           },
@@ -122,7 +122,6 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: ['rust'],
       },
     }),
 }
