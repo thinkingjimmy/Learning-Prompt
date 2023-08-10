@@ -23,8 +23,16 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans'],
+    defaultLocale: 'en',
+    locales: ['en', 'zh-Hans'],
+    localeConfigs: {
+      zh: {
+        htmlLang: 'zh-Hans',
+      },
+      en: {
+        htmlLang: 'en-GB',
+      },
+    },
   },
 
   presets: [
@@ -63,7 +71,7 @@ const config = {
       },
       announcementBar: {
         content:
-          '⭐ 如果你有任何的问题，欢迎加入我们的 <a target="_blank" href="https://discord.gg/B7Z7wjuUPg">Discord Channel</a> 一起学习讨论。⭐',
+          '⭐ If you have any questions, feel free to join our <a target="_blank" href="https://discord.gg/B7Z7wjuUPg">Discord</a>.⭐',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: false,
@@ -86,35 +94,40 @@ const config = {
             type: 'doc',
             docId: 'welcome',
             position: 'left',
-            label: '👋 欢迎',
+            label: '👋 Welcome',
+          },
+          {
+            type: 'doc',
+            docId: 'ai-101',
+            position: 'left',
+            label: '🤖 AI 101',
           },
           {
             type: 'doc',
             docId: 'chatgpt-learning-path',
             position: 'left',
-            label: '💬 ChatGPT 教程',
+            label: '💬 ChatGPT',
           },
           {
             type: 'doc',
             position: 'left',
             docId: 'midjourney-learning-path',
-            label: '🖼️ Midjourney 教程',
+            label: '🖼️ Midjourney',
           },
-          {
-            type: 'doc',
-            position: 'left',
-            docId: 'best-practice',
-            label: '🏗️ AI 最佳实践',
-          },
-          { to: '/blog', label: '📰 更新日志', position: 'left' },
+          { to: '/blog', label: '📰 Changelog', position: 'left' },
           {
             href: 'https://jimmywong.bio/',
-            label: '😎 关于我',
+            label: '😎 About Me',
+            position: 'right',
+          },
+          {
+            type: 'localeDropdown',
             position: 'right',
           },
           {
             href: 'https://github.com/thinkingjimmy/Learning-Prompt',
-            label: 'GitHub',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
             position: 'right',
           },
         ],

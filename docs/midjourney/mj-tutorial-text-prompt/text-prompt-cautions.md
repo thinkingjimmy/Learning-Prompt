@@ -2,47 +2,46 @@
 sidebar_position: 1
 ---
 
-# 撰写 Text Prompt 注意事项
+# Writing Text Prompt Guidelines
 
-Midjourney 跟 ChatGPT 在 prompt 的使用上有很多不一样的地方，本章会详细介绍下 Midjourney 的 text prompt 区别。
+There are several differences in the usage of prompts between Midjourney and ChatGPT. This chapter will provide a detailed explanation of the distinctions in Midjourney's text prompt.
 
-## 语法
+## Grammar
 
-首先 Midjourney 基本上是不懂语法的，所以即使你语法错了，只要词对了，也能生成图片。。
+Firstly, Midjourney generally does not understand grammar. Even if your grammar is incorrect, as long as the words are correct, it can still generate images.
 
-另外，不懂语法也导致了另一个问题：prompt 不是越长越好。特别是各种定语从句，它根本就不懂，还不如把指令用逗号隔开，一个个输入。以下是[官方推荐](https://docs.google.com/document/d/e/2PACX-1vRHOxyEb-ERGi-BdZM8Z_piEP54m4HwO0z8scjmEurEp2UZVA6rFxvyKd15elYVHUWfP1oSA4CQFwxr/pub?utm_source=docs.google.com&utm_medium=tutorial&utm_campaign=midjourney)的语法建议：
+Additionally, Midjourney's lack of understanding of grammar results in another issue: longer prompts are not necessarily better. Especially with various relative clauses, Midjourney does not comprehend them. It is better to separate instructions with commas and input them individually. The following are the grammar recommendations [officially suggested](https://docs.google.com/document/d/e/2PACX-1vRHOxyEb-ERGi-BdZM8Z_piEP54m4HwO0z8scjmEurEp2UZVA6rFxvyKd15elYVHUWfP1oSA4CQFwxr/pub?utm_source=docs.google.com&utm_medium=tutorial&utm_campaign=midjourney) by Midjourney:
 
-- 使用形容词+名词的词序来替换介词短语。
-   - hair flowing in the wind 应该改为 flowing hair
-   - a carrot for a nose 应该改为 carrot nose
-- 使用非常具体的动词来替换介词短语。
-   - a girl with a flashlight 应该改为 a girl using a flashlight
-   - a girl with a big smile on her face 应该改为 smiling girl
+- Replace prepositional phrases with the adjective + noun word order.
+  - "hair flowing in the wind" should be changed to "flowing hair"
+  - "a carrot for a nose" should be changed to "carrot nose"
+- Replace prepositional phrases with more specific verbs.
+  - "a girl with a flashlight" should be changed to "a girl using a flashlight"
+  - "a girl with a big smile on her face" should be changed to "smiling girl"
 
-最后， Midjourney 是不会区分大小写的。
+Lastly, Midjourney does not differentiate between lowercase and uppercase letters.
 
-## 单词
+## Vocabulary
 
-在单词的部分，Midjourney 跟 ChatGPT 有点类似，它对同义词的理解也不是很好。比如举两个例子：
+In terms of vocabulary, Midjourney is somewhat similar to ChatGPT. It also does not have a good understanding of synonyms. For example, consider the following two cases:
 
-1. big （大）这个词，到底指多大？越具象的大，对于 Midjourney 来说，效果越好，比如用 gigantic 就比用通用的 big 好。
-2. cats（猫）这个词是个复数，但到底是多少只？对于 Midjourney 来说，two cats（两只猫）比 cats 更明确。
+1. The word "big." How big does it refer to? The more tangible the concept of "big," the better the effect for Midjourney. For instance, using "gigantic" is better than using the more general term "big."
+2. The word "cats" is plural, but how many cats does it specifically refer to? For Midjourney, "two cats" is clearer than just "cats."
 
-另外，Midjourney 还能用 emoji 代替单词（我觉得本质上 emoji 也是单词），算是一个比较有意思的特性。
+Furthermore, Midjourney can substitute emojis for words (I believe emojis are essentially words), which is quite an interesting feature.
 
-## 与其说不要什么，不如说要什么
+## Instead of What Not to Include, Specify What You Want
 
-这个跟 ChatGPT 类似，你应该将你想要的东西说清楚，而不是告诉 Midjourney 不要什么，如果你想让 Midjourney 不生成某样东西，就需要用到 参数 — no。
+Similar to ChatGPT, you should clearly state what you want instead of telling Midjourney what not to generate. If you want Midjourney to not generate something, you need to use the parameter "no."
 
-## 你不说，模型就会随机给你
+## If You Don't Specify, the Model Will Randomly Provide
 
-因为图像信息的信息量远超过文字，所以很多时候，Midjourney 会随机填充一些内容给你，它既是缺陷，也是亮点功能。因为当你不在 prompt 里说明这些词时，你就能获得发散的结果。
+Due to the abundant information in image data compared to text, there are instances when Midjourney will randomly fill in content for you. This is both a defect and a unique feature. When you do not specify certain words in the prompt, you will obtain more divergent results.
 
-如果你想减少这些随机性，就需要用到一些 prompt 框架（或者所谓的模板），本教程会由浅入深地将这个框架教给你。
+If you want to reduce this randomness, you need to use some prompt frameworks (or templates). This tutorial will teach you these frameworks step by step, starting from the basics.
 
-## 参数
+## Parameters
 
-Midjourney 还有一点跟 ChatGPT 有较大差异，它允许你在 prompt 里加入参数，而且这些参数相对来说一致性都比较好，所以如果你想实现的功能，参数里支持，那优先使用参数，而不是在主体里描述。你会在后续的教程中学到如何善用参数。
+Midjourney also differs from ChatGPT in that it allows you to include parameters in the prompt. These parameters are relatively consistent, so if the functionality you want is supported by the parameters, it is best to use them instead of describing it in the body of the prompt. You will learn how to effectively use parameters in the subsequent tutorials.
 
-另外，需要注意，本教程生成的图片默认为 V5 版本，所以我没有在 prompt 里就加 v5 参数。
-
+Please note that the images generated in this tutorial default to the V5 version, so I did not include the v5 parameter in the prompt.

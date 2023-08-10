@@ -1,9 +1,8 @@
 {
-    "label": "🚀 高级篇",
-    "position": 3,
-    "link": {
-      "type": "generated-index",
-      "description": "高级篇内容相对比较难，如果你对 AI 及 PE 还不是很了解建议先完成基础篇的阅读。"
-      
-    }
+  "label": "🚀 Advanced",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "The advanced chapter is relatively difficult, so if you don't know much about AI and PE, it is recommended to finish the basic chapter first."
+  }
 }

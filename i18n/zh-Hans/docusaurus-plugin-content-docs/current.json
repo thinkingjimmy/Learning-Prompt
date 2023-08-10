@@ -1,0 +1,154 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.midjourney.category.📁 Big List": {
+    "message": "📁 Big List",
+    "description": "The label for category 📁 Big List in sidebar midjourney"
+  },
+  "sidebar.midjourney.category.📁 Big List.link.generated-index.description": {
+    "message": "这里汇总了各种 text prompt 需要用到的风格词。",
+    "description": "The generated-index page description for category 📁 Big List in sidebar midjourney"
+  },
+  "sidebar.chatGPT.category.😎 Fundamentals": {
+    "message": "😎 基础篇",
+    "description": "The label for category 😎 Fundamentals in sidebar chatGPT"
+  },
+  "sidebar.chatGPT.category.😎 Fundamentals.link.generated-index.description": {
+    "message": "如果你对 AI 和 Prompt Engineering 不是很了解，建议你从基础篇开始读起。如果你已经了解基本的用法，那可以直接跳去高级篇阅读。",
+    "description": "The generated-index page description for category 😎 Fundamentals in sidebar chatGPT"
+  },
+  "sidebar.chatGPT.category.Basic Scenarios": {
+    "message": "基本使用场景 & 使用技巧",
+    "description": "The label for category Basic Scenarios in sidebar chatGPT"
+  },
+  "sidebar.chatGPT.category.Basic Scenarios.link.generated-index.title": {
+    "message": "Basic Scenarios",
+    "description": "The generated-index page title for category Basic Scenarios in sidebar chatGPT"
+  },
+  "sidebar.chatGPT.category.Basic Scenarios.link.generated-index.description": {
+    "message": "AI 的使用场景非常多，基础篇仅介绍最最最常用的两种。后续会介绍更多使用场景和方法。",
+    "description": "The generated-index page description for category Basic Scenarios in sidebar chatGPT"
+  },
+  "sidebar.chatGPT.category.🚀 Advanced": {
+    "message": "🚀 高级篇",
+    "description": "The label for category 🚀 Advanced in sidebar chatGPT"
+  },
+  "sidebar.chatGPT.category.🚀 Advanced.link.generated-index.description": {
+    "message": "高级篇内容相对比较难，如果你对 AI 及 PE 还不是很了解建议先完成基础篇的阅读。",
+    "description": "The generated-index page description for category 🚀 Advanced in sidebar chatGPT"
+  },
+  "sidebar.ai101.category.🏗️ AI 最佳实践": {
+    "message": "🏗️ AI 最佳实践",
+    "description": "The label for category 🏗️ AI 最佳实践 in sidebar ai101"
+  },
+  "sidebar.ai101.category.💊 Health": {
+    "message": "💊 健康",
+    "description": "The label for category 💊 Health in sidebar ai101"
+  },
+  "sidebar.ai101.category.💊 Health.link.generated-index.title": {
+    "message": "💊 健康",
+    "description": "The generated-index page title for category 💊 Health in sidebar ai101"
+  },
+  "sidebar.ai101.category.💊 Health.link.generated-index.description": {
+    "message": "使用 AI 提高健康水平。",
+    "description": "The generated-index page description for category 💊 Health in sidebar ai101"
+  },
+  "sidebar.ai101.category.📖 Learning": {
+    "message": "📖 学习",
+    "description": "The label for category 📖 Learning in sidebar ai101"
+  },
+  "sidebar.ai101.category.📖 Learning.link.generated-index.title": {
+    "message": "📖 学习",
+    "description": "The generated-index page title for category 📖 Learning in sidebar ai101"
+  },
+  "sidebar.ai101.category.📖 Learning.link.generated-index.description": {
+    "message": "Using AI to improve learning.",
+    "description": "The generated-index page description for category 📖 Learning in sidebar ai101"
+  },
+  "sidebar.chatGPT.category.🗒️ Tips": {
+    "message": "🗒️ 技巧篇",
+    "description": "The label for category 🗒️ Tips in sidebar chatGPT"
+  },
+  "sidebar.chatGPT.category.🗒️ Tips.link.generated-index.description": {
+    "message": "这里汇总了所有 prompt 技巧，方便各位查阅。如果你已经看过基础篇和高级篇内容，就仅需要从技巧 9 开始看即可。",
+    "description": "The generated-index page description for category 🗒️ Tips in sidebar chatGPT"
+  },
+  "sidebar.welcome.category.💡 Insights and Sharing": {
+    "message": "💡 感悟与分享",
+    "description": "The label for category 💡 Insights and Sharing in sidebar welcome"
+  },
+  "sidebar.welcome.category.💡 Insights and Sharing.link.generated-index.description": {
+    "message": "主要分享我个人的感悟和实践。",
+    "description": "The generated-index page description for category 💡 Insights and Sharing in sidebar welcome"
+  },
+  "sidebar.welcome.category.Paper Sharing": {
+    "message": "论文分享",
+    "description": "The label for category Paper Sharing in sidebar welcome"
+  },
+  "sidebar.welcome.category.Paper Sharing.link.generated-index.description": {
+    "message": "每天看 30 分钟论文。",
+    "description": "The generated-index page description for category Paper Sharing in sidebar welcome"
+  },
+  "sidebar.welcome.category.My Insight": {
+    "message": "我的感悟",
+    "description": "The label for category My Insight in sidebar welcome"
+  },
+  "sidebar.welcome.category.My Insight.link.generated-index.description": {
+    "message": " ",
+    "description": "The generated-index page description for category My Insight in sidebar welcome"
+  },
+  "sidebar.welcome.category.📚 Recommendations": {
+    "message": "📚 推荐",
+    "description": "The label for category 📚 Recommendations in sidebar welcome"
+  },
+  "sidebar.welcome.category.📚 Recommendations.link.generated-index.description": {
+    "message": "汇集各种我个人认为不错的资料和产品。",
+    "description": "The generated-index page description for category 📚 Recommendations in sidebar welcome"
+  },
+  "sidebar.ai101.category.📖 语言模型介绍": {
+    "message": "📖 语言模型介绍",
+    "description": "The label for category 📖 语言模型介绍 in sidebar ai101"
+  },
+  "sidebar.midjourney.category.😎 Fundamentals": {
+    "message": "😎 基础篇",
+    "description": "The label for category 😎 Fundamentals in sidebar midjourney"
+  },
+  "sidebar.midjourney.category.😎 Fundamentals.link.generated-index.title": {
+    "message": "😎 基础篇",
+    "description": "The generated-index page title for category 😎 Fundamentals in sidebar midjourney"
+  },
+  "sidebar.midjourney.category.😎 Fundamentals.link.generated-index.description": {
+    "message": "如果你对 AI 和 Prompt Engineering 不是很了解，建议你从基础篇开始读起。如果你已经了解基本的用法，那可以直接跳去高级篇阅读。",
+    "description": "The generated-index page description for category 😎 Fundamentals in sidebar midjourney"
+  },
+  "sidebar.midjourney.category.🖊️ Text Prompt": {
+    "message": "🖊️ Text Prompt 篇",
+    "description": "The label for category 🖊️ Text Prompt in sidebar midjourney"
+  },
+  "sidebar.midjourney.category.🖊️ Text Prompt.link.generated-index.description": {
+    "message": "通过一个个场景案例介绍 Midjourney text prompt 的撰写技巧。",
+    "description": "The generated-index page description for category 🖊️ Text Prompt in sidebar midjourney"
+  },
+  "sidebar.midjourney.category.🗒️ Tips": {
+    "message": "🗒️ 技巧篇",
+    "description": "The label for category 🗒️ Tips in sidebar midjourney"
+  },
+  "sidebar.midjourney.category.🗒️ Tips.link.generated-index.description": {
+    "message": "这里汇总了所有 Midjourney text prompt 技巧，方便各位查阅。",
+    "description": "The generated-index page description for category 🗒️ Tips in sidebar midjourney"
+  },
+  "sidebar.midjourney.category.🚀 Advanced": {
+    "message": "🚀 高级篇",
+    "description": "The label for category 🚀 Advanced in sidebar midjourney"
+  },
+  "sidebar.midjourney.category.🚀 Advanced.link.generated-index.title": {
+    "message": "🚀 高级篇",
+    "description": "The generated-index page title for category 🚀 Advanced in sidebar midjourney"
+  },
+  "sidebar.midjourney.category.🚀 Advanced.link.generated-index.description": {
+    "message": "高级篇内容相对不需要关注，如果你对 Midjourney 已经很了解，可以看看。",
+    "description": "The generated-index page description for category 🚀 Advanced in sidebar midjourney"
+  }
+}

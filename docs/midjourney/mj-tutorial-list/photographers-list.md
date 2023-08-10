@@ -1,16 +1,16 @@
 ---
 sidebar_position: 3
 ---
+
 # 🏞️ Photographers List
 
-这个 List 里的内容，我会在我的[小红书账号](https://www.xiaohongshu.com/user/profile/6073d38d00000000010068a6?xhsshare=CopyLink&appuid=6073d38d00000000010068a6&apptime=1679646639)上同步更新。感兴趣的朋友可以去关注下。
+> For length I won't cover many styles here, but I'll share more on my [Twitter](https://twitter.com/hellojimmywong) - follow me there for updates.
 
 :::info
 
-这份列表并不是我原创的，来自 Midjourney [官方社区](https://docs.google.com/spreadsheets/d/1fFgHH_kUhu-TTR8aRxnzJScDaUA8WYbRejLjD19NhM0/edit#gid=1033747349)的分享，感谢社区。另外，目前这个表格正在编辑中，会补充图片和介绍。后续会逐步补充（也有可能换个工具来记录，目前这个文档工具，对表格支持得不太好）。🚧
+This list is not my original work, but compiled and shared by the Midjourney [official community](https://docs.google.com/spreadsheets/d/1fFgHH_kUhu-TTR8aRxnzJScDaUA8WYbRejLjD19NhM0/edit#gid=1033747349) - thanks to them! It's still a work in progress with images and descriptions to be added. I'll supplement it gradually (possibly switch tools since this doc tool doesn't handle tables well). 🚧
 
 :::
-
 
 - Aaron Siskind
 - Alessio Albi

@@ -3,6 +3,8 @@ import Link from '@docusaurus/Link'
 import { useColorMode } from '@docusaurus/theme-common'
 import Head from '@docusaurus/Head'
 
+import Translate, { translate } from '@docusaurus/Translate'
+
 export default function HeroSection() {
   const { colorMode, setColorMode } = useColorMode()
 
@@ -21,8 +23,9 @@ export default function HeroSection() {
             Learning Prompt
           </h1>
           <p className="text-sm text-text-400 lg:max-w-lg lg:text-base">
-            免费的 Prompt Engineering 教程
-            <br /> 现已包含 ChatGPT 和 Midjourney 教程
+            <Translate>Free Prompt Engineering Online Course</Translate>
+            <br />
+            <Translate>ChatGPT and Midjourney tutorials are now included!</Translate>
           </p>
           <div className="mt-8 flex flex-col gap-4 lg:flex-row">
             <Link

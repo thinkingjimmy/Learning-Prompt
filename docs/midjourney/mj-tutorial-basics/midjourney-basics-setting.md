@@ -2,57 +2,56 @@
 sidebar_position: 4
 ---
 
-# Midjourney 基础设置
+# Midjourney Basic Settings
 
-## 打开设置
+## Opening Settings
 
-你可以在 Midjourney 的服务器，或者 Midjourney Bot 聊天窗口，输入 /setting，然后按下回车：
+You can open the settings in the Midjourney server or the Midjourney Bot chat window by typing /setting and pressing enter:
 
 ![MJ002.png](https://res.craft.do/user/full/d845172f-becd-4255-bf79-d722098b2d83/doc/15EA26B6-9B49-4076-B8D8-DFE53ABD52C8/96534151-4DE5-42BF-9C94-646BC2721A95_2/j6WMLAkvxzyTZzbEf1rmMpqtFtT2prUjZNnY9EXzWusz/MJ002.png)
 
-接着你就能看到这样的 Bot 消息：
+Then you will see a message from the bot like this:
 
 ![MJ001.png](https://res.craft.do/user/full/d845172f-becd-4255-bf79-d722098b2d83/doc/15EA26B6-9B49-4076-B8D8-DFE53ABD52C8/6B5569D4-BAE1-412D-96D6-7584C2324E9B_2/xWwJDemGdDrzk2eLv7CpO63Kg59lRNEvxsu0FsVqHfEz/MJ001.png)
 
-## 版本设置
+## Version Settings
 
-第一二行是版本切换，你可以根据自己的需要切换不同的版本，MJ Version 1-5 分别表示 Midjourney 的不同版本，切换后，输出的所有图，默认都会用该版本生成，各个版本区别请查阅 Midjourney 各版本差异。 2023 年 4 月 5 日，Midjourney 上线了其 Niji 5，所以版本设置截图里会有 Niji 4 和 Niji 5 Mode 按钮，请知悉：
+The first two lines are for version switching. You can switch between different versions according to your needs. MJ Version 1-5 represent different versions of Midjourney. After switching, all generated images will use the selected version by default. Please refer to the Midjourney documentation for the differences between each version. On April 5, 2023, Midjourney launched its Niji 5, so in the screenshot of the version settings you will see buttons for Niji 4 and Niji 5 modes:
 
 ![MJ003.png](https://res.craft.do/user/full/d845172f-becd-4255-bf79-d722098b2d83/doc/15EA26B6-9B49-4076-B8D8-DFE53ABD52C8/CE13A3C7-1774-4628-A294-EB7CC7D3A2DC_2/8diQnpcPGNZn0qdxcSLm6L3GXmaPMJ2BSydE4tE4zZQz/MJ003.png)
 
-## 图像质量设置
+## Image Quality Settings
 
-第三行是图像质量设置。注意这个参数并不影响分辨率。它改变的更多的是图片的细节，详细的介绍可以查阅 Midjourney Prompt 高级参数 这一章。
+The third line is for image quality settings. Note that this parameter does not affect the resolution. It mainly affects the details of the image. For a detailed explanation, please refer to the Advanced Parameters section in the Midjourney Prompt documentation.
 
-基本上保持默认的就可以了，即图中的 Base quality：
+In general, it is recommended to keep the default setting, which is the "Base quality" shown in the image:
 
 ![MJ004.png](https://res.craft.do/user/full/d845172f-becd-4255-bf79-d722098b2d83/doc/15EA26B6-9B49-4076-B8D8-DFE53ABD52C8/AEBF1130-CAC2-4572-8F3E-8CB05B0485ED_2/5j83pIj8QVQSQwiBCLl5V0wkR4DF3N60yctleHPxJ9oz/MJ004.png)
 
-## 风格设置
+## Style Settings
 
-第四行风格设置，风格设置简单理解，这个值越低会更符合 prompt 的描述，数值越高艺术性就会越强，但跟 prompt 关联性就会比较弱。详细的介绍可以查阅 Midjourney Prompt 常用参数 这一章。
+The fourth line is for style settings. The style setting determines how closely the generated image matches the prompt. Lower values are more aligned with the prompt's description, while higher values increase the artistic quality but may weaken the connection to the prompt. For more details, please refer to the Common Parameters section in the Midjourney Prompt documentation.
 
 ![MJ005.png](https://res.craft.do/user/full/d845172f-becd-4255-bf79-d722098b2d83/doc/15EA26B6-9B49-4076-B8D8-DFE53ABD52C8/66323141-6050-4DC1-96B8-F2729C1820FD_2/T7y8596xDP36aHSLIZxQTR1qOMdcI5IFKZ3HVeTMkJwz/MJ005.png)
 
-## 隐私设置
+## Privacy Settings
 
-这个设置默认是 Public（公开），只有付费的 Pro 用户可以将其设置为 Stealth Mode（隐私），Basic 和 Standard 都没法设置为 Stealth，对 Midjourney 付费感兴趣的可以看看 订阅 Midjourney 会员 这一章。
+By default, this setting is set to "Public", which means only Pro users can set it to "Stealth Mode". Basic and Standard users cannot set it to "Stealth Mode". If you are interested in becoming a paid member of Midjourney, please refer to the Subscribe to Midjourney Membership section.
 
 ![MJ006.png](https://res.craft.do/user/full/d845172f-becd-4255-bf79-d722098b2d83/doc/15EA26B6-9B49-4076-B8D8-DFE53ABD52C8/3A48B75C-7598-4A6E-ABB0-5BFF8648467D_2/iCl5mmYv464AiQExMPqjgyxDa0FeoHdV88wk22naXzoz/MJ006.png)
 
-## Remix 设置
+## Remix Settings
 
-Remix Mode 目前是一个实验功能，可能会随时更改或删除。
+Remix Mode is currently an experimental feature and may change or be removed at any time.
 
 ![MJ007.png](https://res.craft.do/user/full/d845172f-becd-4255-bf79-d722098b2d83/doc/15EA26B6-9B49-4076-B8D8-DFE53ABD52C8/1E344F64-0BE2-4754-84BE-132EC3CF6E36_2/RJZ1STPZgasfCFb6xXJorNItZ4M9Aerxq8kHsjXsNyYz/MJ007.png)
 
-我自己使用下来，有点像 blend（混合）图片模式，使用方法是这样的。首先在 Remix 模式下，点击 Variation 按钮，会弹出一个 Prompt 输入框，输入完后，模型会在不改变第一张图的结构的情况下，增加 Prompt 里提到的内容，比如下面这个例子，第一张图原来是一堆南瓜，点击 Variation 按钮输入 pile of cartoon owls ，就会生成了一张保留原来南瓜图构图，但主体换成了卡通猫头鹰的图。
+According to my own usage, it is similar to blending images. The usage is as follows: First, in Remix Mode, click the "Variation" button. This will bring up a prompt input box. After entering the prompt, the model will generate an image that retains the structure of the original image but changes the subject according to the content mentioned in the prompt. For example, in the example below, the original image is a pile of pumpkins. By clicking the "Variation" button and entering "pile of cartoon owls" in the prompt, the generated image will retain the composition of the original pumpkin image, but the subject will change to a cartoon owl.
 
 ![MJ009.png](https://res.craft.do/user/full/d845172f-becd-4255-bf79-d722098b2d83/doc/15EA26B6-9B49-4076-B8D8-DFE53ABD52C8/49DE1F97-F68C-419E-B97A-CDB021F1465A_2/o5PDOmhOdoNDZ2syL8q1CowfD837IPOjrNCMXgjVsGEz/MJ009.png)
 
-## 生成速度设置
+## Generation Speed Settings
 
-这个默认是 Fast Mode，这个只有付费的 Standard 和 Pro 用户可以设置，其余用户都是 Fast Mode。Standard 和 Pro 用户可以在 Relax Mode 模式下，生成无限图片。对 Midjourney 付费感兴趣的可以看看 订阅 Midjourney 会员 这一章。
+The default setting is "Fast Mode". Only Standard and Pro users can change this setting to "Relax Mode". Other users will have Fast Mode as the only option. Standard and Pro users can generate unlimited images in Relax Mode. If you are interested in becoming a paid member of Midjourney, please refer to the Subscribe to Midjourney Membership section.
 
 ![MJ008.png](https://res.craft.do/user/full/d845172f-becd-4255-bf79-d722098b2d83/doc/15EA26B6-9B49-4076-B8D8-DFE53ABD52C8/46AE64FB-CB90-4486-ABCE-54FDF8DB567A_2/W59qIjpUobNWkbCtlUIdEMckl7axyXKCBUlAiDEmXLgz/MJ008.png)
-

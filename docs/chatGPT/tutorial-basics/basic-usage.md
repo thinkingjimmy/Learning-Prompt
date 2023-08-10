@@ -2,16 +2,16 @@
 sidebar_position: 2
 ---
 
-# 基础用法
+# Basic Usage
 
-:::info 注意
-本章节会简单介绍下 prompt，如果你已经懂得使用 ChatGPT 这类产品的用法，可跳过这一章。
+:::info
+This section will briefly introduce the prompt. If you are already familiar with using products like ChatGPT, you can skip this chapter.
 :::
 
-如果你没怎么使用过类似 ChatGPT 这类 Chatbot 产品，我简单说下它的基本用法：
+If you haven't used ChatGPT or similar chatbot products much before, let me briefly explain its basic usage:
 
-- 你只需要登录 ChatGPT 后，在输入框内输入问题，或者指令即可。AI 会根据你的指令，返回相应的内容，在后续的章节中，我会介绍更详细的用法与技巧：
+- After logging into ChatGPT, you can simply enter your question or command in the input box. The AI will respond with the corresponding content. In the following chapters, I will explain in more detail the usage and techniques:
 
 ![basicprompt.png](./assets/basicprompt.png)
 
-- 另外，还有一个特别留意的，ChatGPT 跟你之前用的一些 AI 产品不同，它还支持多轮对话，比如当你问 `What is the capital of China?` (中国的首都是什么？)，它回答 Beijing，你可以接着问 `How many people are there？` ，你不需要在问题里重复 Beijing 这个词。ChatGPT 知道 there 指的就是 Beijing。
+- Additionally, there is something special to note about ChatGPT compared to other AI products you may have used before. It supports multi-turn conversations. For example, when you ask "What is the capital of China?", it answers "Beijing". You can then follow up with "How many people are there?" without needing to repeat the word "Beijing" in your question. ChatGPT understands that "there" refers to "Beijing".

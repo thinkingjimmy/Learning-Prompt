@@ -2,47 +2,47 @@
 sidebar_position: 1
 ---
 
-# 简介
+# Introduction
 
 <head>
   <script defer="defer" src="https://embed.trydyno.com/embedder.js"></script>
   <link href="https://embed.trydyno.com/embedder.css" rel="stylesheet" />
 </head>
 
-## 什么是 Prompt Engineering？
+## What is Prompt Engineering?
 
-解释这个词之前，首先需要解释 prompt 这个词。
+To understand this term, we first need to understand what a "prompt" is.
 
-简单的理解它是**给 AI 模型的指令**。
+Simply put, a prompt is **an instruction given to an AI model**.
 
-它可以是一个问题、一段文字描述，甚至可以是带有一堆参数的文字描述。AI 模型会基于 prompt 所提供的信息，生成对应的文本，亦或者图片。
+It can be a question, text description, or even text with parameters. The AI model generates corresponding text or images based on the information provided in the prompt.
 
-比如，我们在 ChatGPT 里输入 `What is the capital of China?` (中国的首都是什么？)，这个问题就是 prompt。
+For example, when we enter `What is the capital of China?` into ChatGPT, that question is the prompt.
 
 <div trydyno-embed="" openai-model="text-davinci-003" initial-prompt="What is the capital of China?" initial-response="The capital of China is Beijing. " max-tokens="256" box-rows="3" model-temp="0.7" top-p="1">
     <noscript>Failed to load Dyno Embed: JavaScript must be enabled</noscript>
 </div>
 
 <br/>
-而 Prompt Engineering（中文意思为提示工程，后缩写为 PE）则是：
+Prompt Engineering (PE) is:
 
-> Prompt Engineering 是一种人工智能（AI）技术，它通过设计和改进 AI 的 prompt 来提高 AI 的表现。Prompt Engineering 的目标是创建高度有效和可控的 AI 系统，使其能够准确、可靠地执行特定任务。
+> Prompt Engineering is an AI technique that improves AI performance by designing and refining the prompts given to AI systems. The goal is to create highly effective and controllable AI by enabling systems to perform tasks accurately and reliably.
 
-看上去很难懂，我试着换个方式让你理解。
+That sounds complex. Let me explain another way.
 
-你可能用过不少 AI 相关的产品，你或许会觉得好像只需要会说话、会打字，就能让 AI 输出答案。好像不需要什么技术。
+You've likely used AI products where it seems you just need to type or speak to get an AI response. Seems no technical skill is needed.
 
-的确，如果你只想让 AI 给你答案，你不需要额外做什么，只需要输入文字即可。但如果你想要得到满意的答案，甚至精确的答案。就需要用到 PE 这个技术。
+And for basic usage, you really don't need anything extra beyond entering text. But to get satisfactory, precise answers, you need PE skills.
 
-因为人类的语言从根本上说是不精确的，目前机器还没法很好地理解人类说的话，所以才会出现 PE 这个技术。另外，受制于目前大语言模型 AI 的实现原理，部分逻辑运算问题，需要额外对 AI 进行提示（这里你不需要深究原因，暂时先知道这是个问题即可）。
+Human language is inherently imprecise. Machines still can't fully understand us. PE helps address this gap. Also, due to how large language models work, they struggle with certain logical problems unless properly prompted (no need to dive into why yet, just know it's an issue).
 
-举个例子，如果我们在 ChatGPT 里输入这样的一段话：
+For example, if we enter this into ChatGPT:
 
 ```other
 What is 100*100/400*56?
 ```
 
-ChatGPT 会返回一个错误的答案 0.4464（注意，如果你用下方的 [Dyno](https://trydyno.com/) 运行，答案应该也是错误的，API 版本的回答是 14）：
+It will return an incorrect answer of 0.4464. (Note if you run this below in [Dyno](https://trydyno.com/) , it will likely be wrong too, the API version returns 14):
 
 <div trydyno-embed="" openai-model="text-davinci-003" initial-prompt="What is 100*100/400*56?" initial-response="To solve this problem, we need to follow the order of operations, which is PEMDAS (parentheses, exponents, multiplication/division, addition/subtraction). In this case, there are no parentheses or exponents, so we perform multiplication and division from left to right before performing addition and subtraction.100*100/400*56 = (100*100)/(400*56) (Perform multiplication and division from left to right)= 10,000/22,400 = 0.4464 (Divide 10,000 by 22,400)Therefore, 100100/40056 = 0.4464." max-tokens="256" box-rows="3" model-temp="0.7" top-p="1">
     <noscript>Failed to load Dyno Embed: JavaScript must be enabled</noscript>
@@ -50,7 +50,7 @@ ChatGPT 会返回一个错误的答案 0.4464（注意，如果你用下方的 [
 
 <br/>
 
-但如果我们对 prompt 进行一些修改，答案则会是正确的。注意，如果你用下方的 Dyno 运行旧版的模型 API 的版本，做了修改后，答案应该还是错误的，需要用到 Role Prompting 才能生成正确答案。（这个后续章节会讲解）
+But if we tweak the prompt, it gives the right answer. Note even with the tweak, the old API model in Dyno below likely still gets it wrong - we'd need Role Prompting for correctness (explained later).
 
 <div trydyno-embed="" openai-model="text-davinci-003" initial-prompt="What is (100*100)/400*56?" initial-response="(100*100)/400*56 = (100*100/400)*56 (Perform multiplication and division from left to right, applying the associative property of multiplication)= 25*56 = 1400 (Simplify by performing multiplication)" max-tokens="256" box-rows="3" model-temp="0.7" top-p="1">
     <noscript>Failed to load Dyno Embed: JavaScript must be enabled</noscript>
@@ -58,43 +58,33 @@ ChatGPT 会返回一个错误的答案 0.4464（注意，如果你用下方的 [
 
 <br/>
 
-另外，目前的 AI 产品还比较早期，因为各种原因，产品设置了很多限制，如果你想要绕过一些限制，或者更好地发挥 AI 的能力，也需要用到 Prompt Engineering 技术。这个我们在后续的章节会讲到。
+Additionally, current AI has many restrictions. PE skills help circumvent limitations and better tap into capabilities, as we'll cover later.
 
-所以，总的来说，Prompt Engineering 是一种重要的 AI 技术：
+In summary, Prompt Engineering is an important AI technique:
 
-- 如果你是 AI 产品用户，可以通过这个技术，充分发挥 AI 产品的能力，获得更好的体验，从而提高工作效率。
-- 如果你是产品设计师，或者研发人员，你可以通过它来设计和改进 AI 系统的提示，从而提高 AI 系统的性能和准确性，为用户带来更好的 AI 体验。
+- As a user, it helps maximize capabilities for a better experience and productivity.
+- As a designer or developer, it helps design and refine prompts to improve system accuracy and user experience.
 
-## 需要学习 PE 吗？
+## Is PE Necessary to Learn?
 
-坦率说来，大家对 PE 有一些争议，
+Frankly, there is some debate around PE.
 
-前面一节我解释了 prompt 的各种好处。但也有人认为这个就像当年搜索工具刚出来的时候，出现了不少所谓的「搜索专家」，熟练使用各种搜索相关的奇技淫巧。但现在这些专家都不存在了。因为产品会不断迭代，变得更加易用，无需再使用这些技巧。
+The previous section highlighted the advantages of prompts. But some liken it to early search engine optimization tricks that search "experts" peddled back in the day before engines matured. Those tricks are no longer needed.
 
-拿前面提到的数学问题为例，API 版本算出来是 14，但 ChatGPT 的版本则看上去更准确一些，相信不久的将来，我们无需在公式前加括号，它就能返回正确的结果（2023-03-02）。
+Like with the math example, the API got it wrong but ChatGPT was more accurate. Soon parentheses may not even be needed for correct answers (as of March 2, 2023).
 
-但综合我对产品和用户的理解，以及各位大佬的看法，我的理解是：
+Based on my understanding of products and users, as well as expert opinions, I believe:
 
-> **现在 AI 的发展还比较早期，了解和学习 PE 价值相对比较大，但长远来看可能会被淘汰。这个「长远」可能是 3 年，亦或者 1 年。**
+> **PE is relatively valuable to learn now given AI's early stage, but may be eliminated long-term. That "long-term" might be 3 years, maybe 1 year.**
 
-OpenAI 的 CEO Sam Altman 在今年 2 月底提到给 ChatBot 写 prompt 是个非常高杠杆的技能。
+OpenAI CEO Sam Altman said recently that writing prompts for chatbots is a very high-leverage skill.
 
 ![image.png](https://media.heptabase.com/v1/images/b92049c5-ff11-40d4-b38d-e7b45d802985/479cf9aa-2ef3-42d4-8568-f9c323e8b05f/image.png)
 
-但如果你看过 Sam Altman [去年的访谈](https://greylock.com/greymatter/sam-altman-ai-for-the-next-era/)，他在去年 9 月的时候就提过，5 年内我们很可能就不再需要 PE。
+But in an interview [last year](https://greylock.com/greymatter/sam-altman-ai-for-the-next-era/), he said we may not need PE in 5 years.
 
 ![image.png](https://media.heptabase.com/v1/images/b92049c5-ff11-40d4-b38d-e7b45d802985/14c13281-01c5-47b8-9c38-333d9b57783f/image.png)
 
-**从用户的角度看，我认为学习 prompt 可以让你更好地使用 ChatGPT 等产品。**
+**For users, learning prompts can help maximize usage of ChatGPT etc. for now.**
 
-**从产品的角度看，对于用户来说，我认为 prompt 会是个短期过度形态，未来肯定会有更友好的交互形式，或者理解能力更强的 AI 产品。**
-
-## One More Thing
-
-前特斯拉 AI 负责人 Andrej Karpathy（对了，他之前就在 OpenAI，最近二进宫回 OpenAI 了）今年 1 月底，说了这样的一句话：
-
-![image.png](https://media.heptabase.com/v1/images/b92049c5-ff11-40d4-b38d-e7b45d802985/d01305ed-7008-4576-95ae-f9751f50a020/image.png)
-
-所以本教程所有案例以及 prompt 都会以英文撰写。不管 PE 最后会怎样，看完后，起码你的英语水平会提高。
-
-所以求求各位不要骂我中英文混杂了。哈哈哈 😁
+**For products, prompts are likely a short-term stepping stone until more natural interactions and stronger understanding.**

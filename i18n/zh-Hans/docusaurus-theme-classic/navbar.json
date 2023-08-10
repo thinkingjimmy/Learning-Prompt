@@ -1,0 +1,34 @@
+{
+  "title": {
+    "message": "Learning Prompt",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Learning Prompt logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.👋 Welcome": {
+    "message": "👋 欢迎",
+    "description": "Navbar item with label 👋 Welcome"
+  },
+  "item.label.💬 ChatGPT": {
+    "message": "💬 ChatGPT 教程",
+    "description": "Navbar item with label 💬 ChatGPT"
+  },
+  "item.label.🖼️ Midjourney": {
+    "message": "🖼️ Midjourney 教程",
+    "description": "Navbar item with label 🖼️ Midjourney"
+  },
+  "item.label.📰 Changelog": {
+    "message": "📰 更新日志",
+    "description": "Navbar item with label 📰 Changelog"
+  },
+  "item.label.😎 About Me": {
+    "message": "😎 关于我",
+    "description": "Navbar item with label 😎 About Me"
+  },
+  "item.label.🤖 AI 101": {
+    "message": "🤖 AI 101",
+    "description": "Navbar item with label 🤖 AI 101"
+  }
+}

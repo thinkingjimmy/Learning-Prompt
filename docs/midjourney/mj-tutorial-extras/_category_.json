@@ -1,9 +1,9 @@
 {
-    "label": "🚀 高级篇",
-    "position": 5,
-    "link": {
-      "type": "generated-index",
-      "title": "🚀 高级篇",
-      "description": "高级篇内容相对不需要关注，如果你对 Midjourney 已经很了解，可以看看。"
-    }
+  "label": "🚀 Advanced",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "title": "🚀 Advanced",
+    "description": "The advanced piece is relatively unfocused, so if you're already familiar with Midjourney, check it out."
   }
+}
