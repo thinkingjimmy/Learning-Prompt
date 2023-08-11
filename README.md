@@ -3,6 +3,8 @@
 <h1>👋 Welcome to Learning Prompt</h1>
 <p>
    <strong>Free Prompt Engineering Online Course</strong>
+</p>
+<p>
    <strong>ChatGPT and Midjourney tutorials are now included!</strong>
 </p>
 <h4>
