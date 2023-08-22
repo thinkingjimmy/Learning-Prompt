@@ -82,7 +82,7 @@ Transcript
 
 如果前面 4 个缺点，在技术上未来应该能解决（比如 OpenAI 放开限制到 8K 个 Token），但最后的一个缺点，相对来说，我还没想到如何解决，举个实际的例子。
 
-还是以 Knowledge Project 141 为例，Summarize.tech 的 [Summary](v) 方式是将视频切分成 5 分钟的一段，然后再对生成的内容进行二次总结。我们一起看看这个结果：
+还是以 Knowledge Project 141 为例，Summarize.tech 的 Summary 方式是将视频切分成 5 分钟的一段，然后再对生成的内容进行二次总结。我们一起看看这个结果：
 
 > 00:15:00 The author discusses how he has learned that many concepts in western society are not applicable to Asian societies, such as the value of time. He also discusses how Hinduism is not as scalable as other religions because it is not standardized.
 

@@ -126,9 +126,9 @@ const config = {
           },
           {
             href: 'https://github.com/thinkingjimmy/Learning-Prompt',
+            position: 'right',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
-            position: 'right',
           },
         ],
       },
