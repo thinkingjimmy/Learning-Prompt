@@ -56,7 +56,9 @@ keywords: [IELTS, AI, 口语考试，机器学习，人工智能，人工智能�
 
 ![AI generate IELTS speaking exam](../assets/img/ielts-01.png)
 
-然后你可以根据自己的实际情况，对生成的内容进行修改，比如删除掉一些内容（因为口语时间有限，没法说那么长），或者是增加一些自己常用的口语高分词。
+然后你可以根据自己的实际情况，对生成的内容进行修改，比如删除掉一些内容（因为口语时间有限，没法说那么长），或者是增加一些自己常用的口语高分词。另外根据习惯，你还可以将不熟悉的词标注出来：
+
+![AI generate IELTS speaking exam note](../assets/img/ielts-05.png)
 
 ## 进阶方案
 

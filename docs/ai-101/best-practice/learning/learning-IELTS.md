@@ -40,7 +40,7 @@ However, there are drawbacks:
 1. The price is generally expensive. 
 2. Because this kind of service caters to many students, it cannot guarantee completely unique content. 3. It is difficult to personalize the content, resulting in difficulties in memorization (of course, if you are willing to pay more money, there are services that provide customization).
 
-## The Solution
+## Basic Solution
 
 Recently, I learned that a friend of mine used an AI tool to assist in preparing for the IELTS Speaking test. According to the tests conducted by several friends of mine, compared to writing the content themselves, **it can improve their scores by 0.5-1.0 points**, and it can save a lot of preparation time. In addition, you don't need to spend money to have someone else write for you. I also tried this approach and found that it worked well, so I am sharing it here. 
 
@@ -55,15 +55,17 @@ Using the previous topic as an example, we can first write our answer in your la
 
 Then, input the topic and the written answer into the AI tool, and you will get a sample essay.
 
-Then you can modify the generated content according to your own situation, for example, deleting some content (because there's limited speaking time and you can't say so much), or adding some frequently used high-scoring oral words.
+![AI generate IELTS speaking exam](../assets/img/ielts-01.png)
+
+Then you can modify the generated content according to your own situation, for example, deleting some content (because there's limited speaking time and you can't say so much), or adding some frequently used high-scoring oral words. Additionally, according to your preference, you can also mark unfamiliar words for reference.
+
+![AI generate IELTS speaking exam note](../assets/img/ielts-05.png)
 
 ## Advanced Solution
 
 Because there are so many questions in the question bank, it would be too much to memorize if we had to write an essay for each question. So there is an advanced solution. First, you can list all the questions in a note-taking tool and categorize them, like this:
 
-![AI generate IELTS speaking exam](../assets/img/ielts-01.png)
-
-Then you can modify the generated content according to your own situation, for example, deleting some content (because speaking time is limited, can't say that long), or adding some commonly used high-scoring colloquial words.
+![AI generate IELTS speaking exam notebook](../assets/img/ielts-02.png)
 
 After organizing the categories, you can classify similar topics. For example, in the picture above, the last two topics are related - one is about car travel and the other is about cities. 
 
