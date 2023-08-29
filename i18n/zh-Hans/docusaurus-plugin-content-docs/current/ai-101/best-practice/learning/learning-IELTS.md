@@ -1,6 +1,6 @@
 ---
 sidebar_position: 0
-description: 通过 AI 工具准备雅思口语考试
+description: 通过 AI 工具准备雅思口语考试，提高口语考试分数，节省备考时间。
 keywords: [IELTS, AI, 口语考试，机器学习，人工智能，人工智能学习，机器学习学习，如何备考雅思口语考试，AI 备考雅思，A 备考，PoleStar Chat, AI Tool, AI 最佳实践，AI user case, AI 应用案例，AI 应用场景，AI 应用实战]
 ---
 
