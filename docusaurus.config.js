@@ -8,7 +8,7 @@ const tailwindPlugin = require('./plugins/tailwind-plugin.cjs')
 
 const config = {
   title: 'Learning Prompt',
-  tagline: '免费的 Prompt Engineering 教程',
+  tagline: 'Free Prompt Engineering and Midjourney tutorial.',
   url: 'https://learningpromt.wiki',
   baseUrl: '/',
   onBrokenLinks: 'warn',
@@ -69,6 +69,7 @@ const config = {
           hideable: true,
         },
       },
+      metadata: [{name: 'keywords', content: 'AI, Prompt Engineering, GPT-3, ChatGPT, Midjourney, Learning Prompt, AI, How to use Midjourney, How to use ChatGPT'}],
       announcementBar: {
         content:
           '⭐ If you have any questions, feel free to join our <a target="_blank" href="https://discord.gg/B7Z7wjuUPg">Discord</a>.⭐',
