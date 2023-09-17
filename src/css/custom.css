@@ -259,6 +259,10 @@ body {
   --docusaurus-highlighted-code-line-bg: rgba(147, 178, 244, 0.38);
 
   --font-ui: var(--ifm-font-family-base) !important;
+
+  /* Colors for announcement bar */
+  --announcement-bar-background-color: #fafbfc;
+  --announcement-bar-text-color: #091E42;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -277,6 +281,10 @@ html[data-theme='dark'] {
   --ifm-color-content: #e7e7e7;
 
   --docusaurus-highlighted-code-line-bg: rgba(105, 105, 105, 0.3);
+
+  /* Colors for announcement bar on dark mode */
+  --announcement-bar-background-color: #091E42;
+  --announcement-bar-text-color: #fafbfc;
 }
 
 nav.navbar {
@@ -1079,3 +1087,4 @@ img[src$='#terminal'] {
   border-top-style: solid;
   border-top-width: 1px;
 }
+
