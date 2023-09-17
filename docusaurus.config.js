@@ -73,8 +73,8 @@ const config = {
       announcementBar: {
         content:
           '⭐ If you have any questions, feel free to join our <a target="_blank" href="https://discord.gg/B7Z7wjuUPg">Discord</a>.⭐',
-        backgroundColor: '#fafbfc',
-        textColor: '#091E42',
+        backgroundColor: 'var(--announcement-bar-background-color)',
+        textColor: 'var(--announcement-bar-text-color)',
         isCloseable: false,
       },
       navbar: {
